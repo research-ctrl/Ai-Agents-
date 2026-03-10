@@ -8,7 +8,7 @@ create table if not exists public.contacts (
   name text not null check (char_length(trim(name)) > 0),
   address text not null check (char_length(trim(address)) > 0),
   designation text not null check (char_length(trim(designation)) > 0),
-  phone_number text not null check (phone_number ~ '^[+()\-0-9\s]{7,20}$'),
+  phone_number text not null check (phone_number ~ '^[0-9+() -]{7,20}$'),
   created_at timestamptz not null default now()
 );
 
@@ -27,3 +27,12 @@ create index if not exists contacts_created_at_idx on public.contacts (created_a
 -- create trigger contacts_set_updated_at
 -- before update on public.contacts
 -- for each row execute procedure public.set_updated_at();
+
+
+-- If your table already exists with an older phone regex constraint, run this too:
+alter table public.contacts
+  drop constraint if exists contacts_phone_number_check;
+
+alter table public.contacts
+  add constraint contacts_phone_number_check
+  check (phone_number ~ '^[0-9+() -]{7,20}$');

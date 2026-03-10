@@ -8,7 +8,7 @@ const initialForm = {
   phone_number: '',
 };
 
-const normalizePhone = (value) => value.replace(/[^\d+()\-\s]/g, '').trim();
+const normalizePhone = (value) => value.replace(/[^0-9+()\s-]/g, '').trim();
 
 export default function App() {
   const [formData, setFormData] = useState(initialForm);
@@ -152,7 +152,7 @@ export default function App() {
               name="phone_number"
               type="tel"
               inputMode="tel"
-              pattern="^[+()\-\d\s]{7,20}$"
+              pattern="^[0-9+() -]{7,20}$"
               title="Use 7-20 characters: numbers, spaces, +, -, ()"
               value={formData.phone_number}
               onChange={handleChange}

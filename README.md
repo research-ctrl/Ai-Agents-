@@ -45,3 +45,16 @@ You can paste the full file directly into your PostgreSQL/Supabase SQL command l
 Deploy links:
 - New project: `https://vercel.com/new`
 - One-click clone style: `https://vercel.com/new/clone?repository-url=<YOUR_GITHUB_REPO_URL>`
+
+
+### If you already created the table and see phone regex errors
+Run this SQL once to fix existing invalid phone constraint:
+
+```sql
+alter table public.contacts
+  drop constraint if exists contacts_phone_number_check;
+
+alter table public.contacts
+  add constraint contacts_phone_number_check
+  check (phone_number ~ '^[0-9+() -]{7,20}$');
+```
