@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-industrial-50 text-industrial-900 antialiased;
+}
+
+a {
+  @apply text-inherit no-underline;
+}
+
+* {
+  @apply border-industrial-200;
+}
