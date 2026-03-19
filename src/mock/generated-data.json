@@ -1,0 +1,5030 @@
+{
+  "meta": {
+    "generated_at": "2026-03-18T11:31:19.650866Z",
+    "ship": "MV Horizon Pioneer",
+    "yard": "Haldia Leased Yard",
+    "warehouse": "Central Material Warehouse"
+  },
+  "roles": [
+    {
+      "id": "role-builder",
+      "name": "Builder / Requester"
+    },
+    {
+      "id": "role-procurement",
+      "name": "Procurement Manager"
+    },
+    {
+      "id": "role-approver",
+      "name": "Approver"
+    },
+    {
+      "id": "role-store",
+      "name": "Receiving / Store Officer"
+    },
+    {
+      "id": "role-qc",
+      "name": "QC / QA"
+    },
+    {
+      "id": "role-finance",
+      "name": "Finance"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-sawant",
+      "name": "Sawant",
+      "role_id": "role-builder"
+    },
+    {
+      "id": "user-biplob",
+      "name": "Biplob",
+      "role_id": "role-procurement"
+    },
+    {
+      "id": "user-lincoln",
+      "name": "Lincoln",
+      "role_id": "role-approver"
+    },
+    {
+      "id": "user-lindsey",
+      "name": "Lindsey",
+      "role_id": "role-approver"
+    },
+    {
+      "id": "user-galvin",
+      "name": "Galvin",
+      "role_id": "role-qc"
+    },
+    {
+      "id": "user-finance",
+      "name": "Finance Department",
+      "role_id": "role-finance"
+    }
+  ],
+  "units": [
+    {
+      "id": "unit-nos",
+      "name": "Nos"
+    },
+    {
+      "id": "unit-meter",
+      "name": "Meter"
+    },
+    {
+      "id": "unit-kg",
+      "name": "Kg"
+    },
+    {
+      "id": "unit-set",
+      "name": "Set"
+    },
+    {
+      "id": "unit-roll",
+      "name": "Roll"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-consumable",
+      "name": "consumable"
+    },
+    {
+      "id": "cat-fixed",
+      "name": "fixed"
+    },
+    {
+      "id": "cat-semi-fixed",
+      "name": "semi-fixed"
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc-warehouse",
+      "name": "Warehouse"
+    },
+    {
+      "id": "loc-sr1",
+      "name": "Store Room 1"
+    },
+    {
+      "id": "loc-sr2",
+      "name": "Store Room 2"
+    }
+  ],
+  "phases": [
+    {
+      "id": "phase-1",
+      "name": "Hull Fabrication"
+    },
+    {
+      "id": "phase-2",
+      "name": "Piping"
+    },
+    {
+      "id": "phase-3",
+      "name": "Electrical"
+    },
+    {
+      "id": "phase-4",
+      "name": "Accommodation"
+    },
+    {
+      "id": "phase-5",
+      "name": "Deck Machinery"
+    },
+    {
+      "id": "phase-6",
+      "name": "Outfitting"
+    }
+  ],
+  "vendors": [
+    {
+      "id": "vendor-1",
+      "name": "OceanForge Supplies",
+      "price_score": 88,
+      "delivery_score": 72,
+      "qc_rejection_rate": 1.4,
+      "reliability_score": 78,
+      "previous_performance_score": 79,
+      "lead_time_days": 6
+    },
+    {
+      "id": "vendor-2",
+      "name": "Harbor Industrial Co.",
+      "price_score": 72,
+      "delivery_score": 71,
+      "qc_rejection_rate": 6.3,
+      "reliability_score": 87,
+      "previous_performance_score": 74,
+      "lead_time_days": 12
+    },
+    {
+      "id": "vendor-3",
+      "name": "BlueKeel Metals",
+      "price_score": 81,
+      "delivery_score": 67,
+      "qc_rejection_rate": 1.4,
+      "reliability_score": 76,
+      "previous_performance_score": 79,
+      "lead_time_days": 11
+    },
+    {
+      "id": "vendor-4",
+      "name": "AnchorLine Engineering",
+      "price_score": 87,
+      "delivery_score": 66,
+      "qc_rejection_rate": 5.4,
+      "reliability_score": 92,
+      "previous_performance_score": 92,
+      "lead_time_days": 14
+    },
+    {
+      "id": "vendor-5",
+      "name": "North Dock Cables",
+      "price_score": 85,
+      "delivery_score": 91,
+      "qc_rejection_rate": 2.9,
+      "reliability_score": 88,
+      "previous_performance_score": 80,
+      "lead_time_days": 3
+    },
+    {
+      "id": "vendor-6",
+      "name": "Triton Marine Consumables",
+      "price_score": 92,
+      "delivery_score": 75,
+      "qc_rejection_rate": 6.4,
+      "reliability_score": 80,
+      "previous_performance_score": 80,
+      "lead_time_days": 5
+    },
+    {
+      "id": "vendor-7",
+      "name": "YardGrid Fabrication",
+      "price_score": 74,
+      "delivery_score": 86,
+      "qc_rejection_rate": 2.0,
+      "reliability_score": 82,
+      "previous_performance_score": 75,
+      "lead_time_days": 8
+    },
+    {
+      "id": "vendor-8",
+      "name": "Bulkhead Components Ltd.",
+      "price_score": 79,
+      "delivery_score": 81,
+      "qc_rejection_rate": 7.3,
+      "reliability_score": 93,
+      "previous_performance_score": 86,
+      "lead_time_days": 11
+    }
+  ],
+  "items": [
+    {
+      "id": "item-1",
+      "name": "Welding Electrode E6013 01",
+      "specification": "4mm low hydrogen rod",
+      "unit_id": "unit-kg",
+      "category_id": "cat-consumable",
+      "default_vendor_id": "vendor-2"
+    },
+    {
+      "id": "item-2",
+      "name": "Steel Plate AH36 02",
+      "specification": "12mm class certified",
+      "unit_id": "unit-meter",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-7"
+    },
+    {
+      "id": "item-3",
+      "name": "Pipe Elbow CS 03",
+      "specification": "DN80 Sch40 seamless",
+      "unit_id": "unit-nos",
+      "category_id": "cat-semi-fixed",
+      "default_vendor_id": "vendor-2"
+    },
+    {
+      "id": "item-4",
+      "name": "Marine Cable 04",
+      "specification": "4C x 16 sqmm flame retardant",
+      "unit_id": "unit-roll",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-5"
+    },
+    {
+      "id": "item-5",
+      "name": "Primer Coating 05",
+      "specification": "Epoxy zinc rich 20L",
+      "unit_id": "unit-set",
+      "category_id": "cat-consumable",
+      "default_vendor_id": "vendor-6"
+    },
+    {
+      "id": "item-6",
+      "name": "Valve Gate 06",
+      "specification": "2 inch bronze body",
+      "unit_id": "unit-nos",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-4"
+    },
+    {
+      "id": "item-7",
+      "name": "Fastener Kit 07",
+      "specification": "SS316 mixed bolt pack",
+      "unit_id": "unit-set",
+      "category_id": "cat-consumable",
+      "default_vendor_id": "vendor-2"
+    },
+    {
+      "id": "item-8",
+      "name": "Deck Light 08",
+      "specification": "LED weatherproof 220V",
+      "unit_id": "unit-nos",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-1"
+    },
+    {
+      "id": "item-9",
+      "name": "Cable Tray 09",
+      "specification": "GI perforated 300mm",
+      "unit_id": "unit-meter",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-4"
+    },
+    {
+      "id": "item-10",
+      "name": "Grinding Disc 10",
+      "specification": "7 inch metal cutting",
+      "unit_id": "unit-nos",
+      "category_id": "cat-consumable",
+      "default_vendor_id": "vendor-5"
+    },
+    {
+      "id": "item-11",
+      "name": "Welding Electrode E6013 11",
+      "specification": "4mm low hydrogen rod",
+      "unit_id": "unit-kg",
+      "category_id": "cat-consumable",
+      "default_vendor_id": "vendor-2"
+    },
+    {
+      "id": "item-12",
+      "name": "Steel Plate AH36 12",
+      "specification": "12mm class certified",
+      "unit_id": "unit-meter",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-4"
+    },
+    {
+      "id": "item-13",
+      "name": "Pipe Elbow CS 13",
+      "specification": "DN80 Sch40 seamless",
+      "unit_id": "unit-nos",
+      "category_id": "cat-semi-fixed",
+      "default_vendor_id": "vendor-2"
+    },
+    {
+      "id": "item-14",
+      "name": "Marine Cable 14",
+      "specification": "4C x 16 sqmm flame retardant",
+      "unit_id": "unit-roll",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-7"
+    },
+    {
+      "id": "item-15",
+      "name": "Primer Coating 15",
+      "specification": "Epoxy zinc rich 20L",
+      "unit_id": "unit-set",
+      "category_id": "cat-consumable",
+      "default_vendor_id": "vendor-5"
+    },
+    {
+      "id": "item-16",
+      "name": "Valve Gate 16",
+      "specification": "2 inch bronze body",
+      "unit_id": "unit-nos",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-8"
+    },
+    {
+      "id": "item-17",
+      "name": "Fastener Kit 17",
+      "specification": "SS316 mixed bolt pack",
+      "unit_id": "unit-set",
+      "category_id": "cat-consumable",
+      "default_vendor_id": "vendor-6"
+    },
+    {
+      "id": "item-18",
+      "name": "Deck Light 18",
+      "specification": "LED weatherproof 220V",
+      "unit_id": "unit-nos",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-3"
+    },
+    {
+      "id": "item-19",
+      "name": "Cable Tray 19",
+      "specification": "GI perforated 300mm",
+      "unit_id": "unit-meter",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-6"
+    },
+    {
+      "id": "item-20",
+      "name": "Grinding Disc 20",
+      "specification": "7 inch metal cutting",
+      "unit_id": "unit-nos",
+      "category_id": "cat-consumable",
+      "default_vendor_id": "vendor-6"
+    },
+    {
+      "id": "item-21",
+      "name": "Welding Electrode E6013 21",
+      "specification": "4mm low hydrogen rod",
+      "unit_id": "unit-kg",
+      "category_id": "cat-consumable",
+      "default_vendor_id": "vendor-4"
+    },
+    {
+      "id": "item-22",
+      "name": "Steel Plate AH36 22",
+      "specification": "12mm class certified",
+      "unit_id": "unit-meter",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-5"
+    },
+    {
+      "id": "item-23",
+      "name": "Pipe Elbow CS 23",
+      "specification": "DN80 Sch40 seamless",
+      "unit_id": "unit-nos",
+      "category_id": "cat-semi-fixed",
+      "default_vendor_id": "vendor-2"
+    },
+    {
+      "id": "item-24",
+      "name": "Marine Cable 24",
+      "specification": "4C x 16 sqmm flame retardant",
+      "unit_id": "unit-roll",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-3"
+    },
+    {
+      "id": "item-25",
+      "name": "Primer Coating 25",
+      "specification": "Epoxy zinc rich 20L",
+      "unit_id": "unit-set",
+      "category_id": "cat-consumable",
+      "default_vendor_id": "vendor-4"
+    },
+    {
+      "id": "item-26",
+      "name": "Valve Gate 26",
+      "specification": "2 inch bronze body",
+      "unit_id": "unit-nos",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-3"
+    },
+    {
+      "id": "item-27",
+      "name": "Fastener Kit 27",
+      "specification": "SS316 mixed bolt pack",
+      "unit_id": "unit-set",
+      "category_id": "cat-consumable",
+      "default_vendor_id": "vendor-8"
+    },
+    {
+      "id": "item-28",
+      "name": "Deck Light 28",
+      "specification": "LED weatherproof 220V",
+      "unit_id": "unit-nos",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-7"
+    },
+    {
+      "id": "item-29",
+      "name": "Cable Tray 29",
+      "specification": "GI perforated 300mm",
+      "unit_id": "unit-meter",
+      "category_id": "cat-fixed",
+      "default_vendor_id": "vendor-5"
+    },
+    {
+      "id": "item-30",
+      "name": "Grinding Disc 30",
+      "specification": "7 inch metal cutting",
+      "unit_id": "unit-nos",
+      "category_id": "cat-consumable",
+      "default_vendor_id": "vendor-4"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "req-1",
+      "item_id": "item-1",
+      "item_name": "Welding Electrode E6013 01",
+      "specification": "4mm low hydrogen rod",
+      "quantity": 46,
+      "unit_id": "unit-kg",
+      "required_by_date": "2026-03-23",
+      "phase_id": "phase-2",
+      "urgency": "low",
+      "note": "Needed for machinery foundation.",
+      "image_path": "requirement-images/req-1.jpg",
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "raised",
+      "created_at": "2026-03-18T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-2",
+      "item_id": "item-2",
+      "item_name": "Steel Plate AH36 02",
+      "specification": "12mm class certified",
+      "quantity": 45,
+      "unit_id": "unit-meter",
+      "required_by_date": "2026-03-26",
+      "phase_id": "phase-6",
+      "urgency": "critical",
+      "note": "Needed for paint touch-up.",
+      "image_path": null,
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "raised",
+      "created_at": "2026-03-16T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-3",
+      "item_id": "item-3",
+      "item_name": "Pipe Elbow CS 03",
+      "specification": "DN80 Sch40 seamless",
+      "quantity": 22,
+      "unit_id": "unit-nos",
+      "required_by_date": "2026-03-25",
+      "phase_id": "phase-6",
+      "urgency": "high",
+      "note": "Needed for paint touch-up.",
+      "image_path": null,
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "raised",
+      "created_at": "2026-03-14T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-4",
+      "item_id": "item-4",
+      "item_name": "Marine Cable 04",
+      "specification": "4C x 16 sqmm flame retardant",
+      "quantity": 22,
+      "unit_id": "unit-roll",
+      "required_by_date": "2026-04-01",
+      "phase_id": "phase-4",
+      "urgency": "low",
+      "note": "Needed for block fabrication.",
+      "image_path": "requirement-images/req-4.jpg",
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "under_review",
+      "created_at": "2026-03-12T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-5",
+      "item_id": "item-5",
+      "item_name": "Primer Coating 05",
+      "specification": "Epoxy zinc rich 20L",
+      "quantity": 59,
+      "unit_id": "unit-set",
+      "required_by_date": "2026-03-16",
+      "phase_id": "phase-4",
+      "urgency": "critical",
+      "note": "Needed for paint touch-up.",
+      "image_path": null,
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "under_review",
+      "created_at": "2026-03-10T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-6",
+      "item_id": "item-6",
+      "item_name": "Valve Gate 06",
+      "specification": "2 inch bronze body",
+      "quantity": 19,
+      "unit_id": "unit-nos",
+      "required_by_date": "2026-03-29",
+      "phase_id": "phase-3",
+      "urgency": "high",
+      "note": "Needed for block fabrication.",
+      "image_path": null,
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "under_review",
+      "created_at": "2026-03-08T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-7",
+      "item_id": "item-7",
+      "item_name": "Fastener Kit 07",
+      "specification": "SS316 mixed bolt pack",
+      "quantity": 38,
+      "unit_id": "unit-set",
+      "required_by_date": "2026-03-26",
+      "phase_id": "phase-2",
+      "urgency": "low",
+      "note": "Needed for machinery foundation.",
+      "image_path": "requirement-images/req-7.jpg",
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "approved",
+      "created_at": "2026-03-06T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-8",
+      "item_id": "item-8",
+      "item_name": "Deck Light 08",
+      "specification": "LED weatherproof 220V",
+      "quantity": 52,
+      "unit_id": "unit-nos",
+      "required_by_date": "2026-03-13",
+      "phase_id": "phase-5",
+      "urgency": "low",
+      "note": "Needed for machinery foundation.",
+      "image_path": null,
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "approved",
+      "created_at": "2026-03-04T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-9",
+      "item_id": "item-9",
+      "item_name": "Cable Tray 09",
+      "specification": "GI perforated 300mm",
+      "quantity": 35,
+      "unit_id": "unit-meter",
+      "required_by_date": "2026-03-07",
+      "phase_id": "phase-2",
+      "urgency": "low",
+      "note": "Needed for block fabrication.",
+      "image_path": null,
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "approved",
+      "created_at": "2026-03-02T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-10",
+      "item_id": "item-10",
+      "item_name": "Grinding Disc 10",
+      "specification": "7 inch metal cutting",
+      "quantity": 65,
+      "unit_id": "unit-nos",
+      "required_by_date": "2026-03-21",
+      "phase_id": "phase-2",
+      "urgency": "high",
+      "note": "Needed for paint touch-up.",
+      "image_path": "requirement-images/req-10.jpg",
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "po_created",
+      "created_at": "2026-02-28T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-11",
+      "item_id": "item-11",
+      "item_name": "Welding Electrode E6013 11",
+      "specification": "4mm low hydrogen rod",
+      "quantity": 44,
+      "unit_id": "unit-kg",
+      "required_by_date": "2026-03-14",
+      "phase_id": "phase-6",
+      "urgency": "high",
+      "note": "Needed for paint touch-up.",
+      "image_path": null,
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "po_created",
+      "created_at": "2026-02-26T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-12",
+      "item_id": "item-12",
+      "item_name": "Steel Plate AH36 12",
+      "specification": "12mm class certified",
+      "quantity": 33,
+      "unit_id": "unit-meter",
+      "required_by_date": "2026-03-02",
+      "phase_id": "phase-3",
+      "urgency": "low",
+      "note": "Needed for cable routing.",
+      "image_path": null,
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "po_created",
+      "created_at": "2026-02-24T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-13",
+      "item_id": "item-13",
+      "item_name": "Pipe Elbow CS 13",
+      "specification": "DN80 Sch40 seamless",
+      "quantity": 12,
+      "unit_id": "unit-nos",
+      "required_by_date": "2026-03-05",
+      "phase_id": "phase-1",
+      "urgency": "low",
+      "note": "Needed for machinery foundation.",
+      "image_path": "requirement-images/req-13.jpg",
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "in_delivery",
+      "created_at": "2026-02-22T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-14",
+      "item_id": "item-14",
+      "item_name": "Marine Cable 14",
+      "specification": "4C x 16 sqmm flame retardant",
+      "quantity": 67,
+      "unit_id": "unit-roll",
+      "required_by_date": "2026-03-02",
+      "phase_id": "phase-5",
+      "urgency": "medium",
+      "note": "Needed for paint touch-up.",
+      "image_path": null,
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "in_delivery",
+      "created_at": "2026-02-20T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-15",
+      "item_id": "item-15",
+      "item_name": "Primer Coating 15",
+      "specification": "Epoxy zinc rich 20L",
+      "quantity": 17,
+      "unit_id": "unit-set",
+      "required_by_date": "2026-03-07",
+      "phase_id": "phase-3",
+      "urgency": "critical",
+      "note": "Needed for paint touch-up.",
+      "image_path": null,
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "in_delivery",
+      "created_at": "2026-02-18T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-16",
+      "item_id": "item-16",
+      "item_name": "Valve Gate 16",
+      "specification": "2 inch bronze body",
+      "quantity": 56,
+      "unit_id": "unit-nos",
+      "required_by_date": "2026-03-02",
+      "phase_id": "phase-1",
+      "urgency": "medium",
+      "note": "Needed for cable routing.",
+      "image_path": "requirement-images/req-16.jpg",
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "received",
+      "created_at": "2026-02-16T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-17",
+      "item_id": "item-17",
+      "item_name": "Fastener Kit 17",
+      "specification": "SS316 mixed bolt pack",
+      "quantity": 28,
+      "unit_id": "unit-set",
+      "required_by_date": "2026-02-26",
+      "phase_id": "phase-4",
+      "urgency": "medium",
+      "note": "Needed for block fabrication.",
+      "image_path": null,
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "received",
+      "created_at": "2026-02-14T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-18",
+      "item_id": "item-18",
+      "item_name": "Deck Light 18",
+      "specification": "LED weatherproof 220V",
+      "quantity": 6,
+      "unit_id": "unit-nos",
+      "required_by_date": "2026-02-18",
+      "phase_id": "phase-2",
+      "urgency": "medium",
+      "note": "Needed for paint touch-up.",
+      "image_path": null,
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "received",
+      "created_at": "2026-02-12T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-19",
+      "item_id": "item-19",
+      "item_name": "Cable Tray 19",
+      "specification": "GI perforated 300mm",
+      "quantity": 53,
+      "unit_id": "unit-meter",
+      "required_by_date": "2026-02-14",
+      "phase_id": "phase-4",
+      "urgency": "high",
+      "note": "Needed for paint touch-up.",
+      "image_path": "requirement-images/req-19.jpg",
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "in_inventory",
+      "created_at": "2026-02-10T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "req-20",
+      "item_id": "item-20",
+      "item_name": "Grinding Disc 20",
+      "specification": "7 inch metal cutting",
+      "quantity": 42,
+      "unit_id": "unit-nos",
+      "required_by_date": "2026-02-18",
+      "phase_id": "phase-1",
+      "urgency": "low",
+      "note": "Needed for machinery foundation.",
+      "image_path": null,
+      "ship_name": "MV Horizon Pioneer",
+      "yard_name": "Haldia Leased Yard",
+      "status": "in_inventory",
+      "created_at": "2026-02-08T00:00:00",
+      "created_by": "user-sawant"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "review-1",
+      "requirement_id": "req-1",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 12,
+      "recovered_stock": 8,
+      "decision": "full_issue_from_inventory",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-2",
+      "requirement_id": "req-2",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 28,
+      "recovered_stock": 20,
+      "decision": "partial_issue_procure_balance",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-3",
+      "requirement_id": "req-3",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 28,
+      "recovered_stock": 18,
+      "decision": "partial_issue_procure_balance",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-4",
+      "requirement_id": "req-4",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 27,
+      "recovered_stock": 3,
+      "decision": "full_issue_from_inventory",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-5",
+      "requirement_id": "req-5",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 16,
+      "recovered_stock": 8,
+      "decision": "full_fresh_procurement",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-6",
+      "requirement_id": "req-6",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 9,
+      "recovered_stock": 13,
+      "decision": "full_issue_from_inventory",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-7",
+      "requirement_id": "req-7",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 26,
+      "recovered_stock": 20,
+      "decision": "full_fresh_procurement",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-8",
+      "requirement_id": "req-8",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 15,
+      "recovered_stock": 0,
+      "decision": "full_issue_from_inventory",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-9",
+      "requirement_id": "req-9",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 23,
+      "recovered_stock": 15,
+      "decision": "full_issue_from_inventory",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-10",
+      "requirement_id": "req-10",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 30,
+      "recovered_stock": 6,
+      "decision": "full_fresh_procurement",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-11",
+      "requirement_id": "req-11",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 28,
+      "recovered_stock": 16,
+      "decision": "partial_issue_procure_balance",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-12",
+      "requirement_id": "req-12",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 18,
+      "recovered_stock": 7,
+      "decision": "full_issue_from_inventory",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-13",
+      "requirement_id": "req-13",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 2,
+      "recovered_stock": 16,
+      "decision": "full_issue_from_inventory",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-14",
+      "requirement_id": "req-14",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 7,
+      "recovered_stock": 15,
+      "decision": "partial_issue_procure_balance",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-15",
+      "requirement_id": "req-15",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 14,
+      "recovered_stock": 1,
+      "decision": "full_fresh_procurement",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-16",
+      "requirement_id": "req-16",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 6,
+      "recovered_stock": 17,
+      "decision": "partial_issue_procure_balance",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-17",
+      "requirement_id": "req-17",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 14,
+      "recovered_stock": 17,
+      "decision": "full_issue_from_inventory",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-18",
+      "requirement_id": "req-18",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 15,
+      "recovered_stock": 15,
+      "decision": "full_issue_from_inventory",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-19",
+      "requirement_id": "req-19",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 9,
+      "recovered_stock": 13,
+      "decision": "full_fresh_procurement",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    },
+    {
+      "id": "review-20",
+      "requirement_id": "req-20",
+      "reviewer_id": "user-biplob",
+      "stock_on_hand": 1,
+      "recovered_stock": 1,
+      "decision": "full_fresh_procurement",
+      "review_note": "Reviewed against live stock, recovered stock, and urgent phase demand."
+    }
+  ],
+  "approvals": [
+    {
+      "id": "approval-1",
+      "requirement_id": "req-1",
+      "approver_id": "user-lincoln",
+      "status": "approved",
+      "remark": "Awaiting budget note."
+    },
+    {
+      "id": "approval-2",
+      "requirement_id": "req-2",
+      "approver_id": "user-lincoln",
+      "status": "approved",
+      "remark": "Approved subject to QC preference."
+    },
+    {
+      "id": "approval-3",
+      "requirement_id": "req-3",
+      "approver_id": "user-lindsey",
+      "status": "approved",
+      "remark": "Approved for urgent execution."
+    },
+    {
+      "id": "approval-4",
+      "requirement_id": "req-4",
+      "approver_id": "user-lincoln",
+      "status": "approved",
+      "remark": "Awaiting budget note."
+    },
+    {
+      "id": "approval-5",
+      "requirement_id": "req-5",
+      "approver_id": "user-lincoln",
+      "status": "approved",
+      "remark": "Awaiting budget note."
+    },
+    {
+      "id": "approval-6",
+      "requirement_id": "req-6",
+      "approver_id": "user-lindsey",
+      "status": "approved",
+      "remark": "Approved for urgent execution."
+    },
+    {
+      "id": "approval-7",
+      "requirement_id": "req-7",
+      "approver_id": "user-lincoln",
+      "status": "approved",
+      "remark": "Approved for urgent execution."
+    },
+    {
+      "id": "approval-8",
+      "requirement_id": "req-8",
+      "approver_id": "user-lindsey",
+      "status": "approved",
+      "remark": "Approved subject to QC preference."
+    },
+    {
+      "id": "approval-9",
+      "requirement_id": "req-9",
+      "approver_id": "user-lincoln",
+      "status": "approved",
+      "remark": "Approved for urgent execution."
+    },
+    {
+      "id": "approval-10",
+      "requirement_id": "req-10",
+      "approver_id": "user-lincoln",
+      "status": "approved",
+      "remark": "Awaiting budget note."
+    },
+    {
+      "id": "approval-11",
+      "requirement_id": "req-11",
+      "approver_id": "user-lincoln",
+      "status": "approved",
+      "remark": "Approved for urgent execution."
+    },
+    {
+      "id": "approval-12",
+      "requirement_id": "req-12",
+      "approver_id": "user-lincoln",
+      "status": "approved",
+      "remark": "Awaiting budget note."
+    },
+    {
+      "id": "approval-13",
+      "requirement_id": "req-13",
+      "approver_id": "user-lindsey",
+      "status": "approved",
+      "remark": "Awaiting budget note."
+    },
+    {
+      "id": "approval-14",
+      "requirement_id": "req-14",
+      "approver_id": "user-lincoln",
+      "status": "approved",
+      "remark": "Approved for urgent execution."
+    },
+    {
+      "id": "approval-15",
+      "requirement_id": "req-15",
+      "approver_id": "user-lincoln",
+      "status": "approved",
+      "remark": "Approved for urgent execution."
+    },
+    {
+      "id": "approval-16",
+      "requirement_id": "req-16",
+      "approver_id": "user-lincoln",
+      "status": "approved",
+      "remark": "Approved subject to QC preference."
+    },
+    {
+      "id": "approval-17",
+      "requirement_id": "req-17",
+      "approver_id": "user-lincoln",
+      "status": "pending",
+      "remark": "Awaiting budget note."
+    },
+    {
+      "id": "approval-18",
+      "requirement_id": "req-18",
+      "approver_id": "user-lindsey",
+      "status": "approved",
+      "remark": "Approved for urgent execution."
+    },
+    {
+      "id": "approval-19",
+      "requirement_id": "req-19",
+      "approver_id": "user-lindsey",
+      "status": "approved",
+      "remark": "Approved for urgent execution."
+    },
+    {
+      "id": "approval-20",
+      "requirement_id": "req-20",
+      "approver_id": "user-lindsey",
+      "status": "pending",
+      "remark": "Awaiting budget note."
+    }
+  ],
+  "vendor_comparisons": [
+    {
+      "id": "compare-1",
+      "requirement_id": "req-1",
+      "recommended_vendor_id": "vendor-3",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-4",
+          "price_score": 87,
+          "delivery_score": 66,
+          "qc_rejection_rate": 5.4,
+          "reliability_score": 92,
+          "previous_performance_score": 92
+        },
+        {
+          "vendor_id": "vendor-8",
+          "price_score": 79,
+          "delivery_score": 81,
+          "qc_rejection_rate": 7.3,
+          "reliability_score": 93,
+          "previous_performance_score": 86
+        },
+        {
+          "vendor_id": "vendor-1",
+          "price_score": 88,
+          "delivery_score": 72,
+          "qc_rejection_rate": 1.4,
+          "reliability_score": 78,
+          "previous_performance_score": 79
+        },
+        {
+          "vendor_id": "vendor-5",
+          "price_score": 85,
+          "delivery_score": 91,
+          "qc_rejection_rate": 2.9,
+          "reliability_score": 88,
+          "previous_performance_score": 80
+        }
+      ],
+      "human_selected_vendor_id": "vendor-3"
+    },
+    {
+      "id": "compare-2",
+      "requirement_id": "req-2",
+      "recommended_vendor_id": "vendor-1",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-6",
+          "price_score": 92,
+          "delivery_score": 75,
+          "qc_rejection_rate": 6.4,
+          "reliability_score": 80,
+          "previous_performance_score": 80
+        },
+        {
+          "vendor_id": "vendor-2",
+          "price_score": 72,
+          "delivery_score": 71,
+          "qc_rejection_rate": 6.3,
+          "reliability_score": 87,
+          "previous_performance_score": 74
+        },
+        {
+          "vendor_id": "vendor-3",
+          "price_score": 81,
+          "delivery_score": 67,
+          "qc_rejection_rate": 1.4,
+          "reliability_score": 76,
+          "previous_performance_score": 79
+        },
+        {
+          "vendor_id": "vendor-4",
+          "price_score": 87,
+          "delivery_score": 66,
+          "qc_rejection_rate": 5.4,
+          "reliability_score": 92,
+          "previous_performance_score": 92
+        }
+      ],
+      "human_selected_vendor_id": "vendor-1"
+    },
+    {
+      "id": "compare-3",
+      "requirement_id": "req-3",
+      "recommended_vendor_id": "vendor-5",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-4",
+          "price_score": 87,
+          "delivery_score": 66,
+          "qc_rejection_rate": 5.4,
+          "reliability_score": 92,
+          "previous_performance_score": 92
+        },
+        {
+          "vendor_id": "vendor-5",
+          "price_score": 85,
+          "delivery_score": 91,
+          "qc_rejection_rate": 2.9,
+          "reliability_score": 88,
+          "previous_performance_score": 80
+        },
+        {
+          "vendor_id": "vendor-3",
+          "price_score": 81,
+          "delivery_score": 67,
+          "qc_rejection_rate": 1.4,
+          "reliability_score": 76,
+          "previous_performance_score": 79
+        },
+        {
+          "vendor_id": "vendor-2",
+          "price_score": 72,
+          "delivery_score": 71,
+          "qc_rejection_rate": 6.3,
+          "reliability_score": 87,
+          "previous_performance_score": 74
+        }
+      ],
+      "human_selected_vendor_id": "vendor-5"
+    },
+    {
+      "id": "compare-4",
+      "requirement_id": "req-4",
+      "recommended_vendor_id": "vendor-2",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-1",
+          "price_score": 88,
+          "delivery_score": 72,
+          "qc_rejection_rate": 1.4,
+          "reliability_score": 78,
+          "previous_performance_score": 79
+        },
+        {
+          "vendor_id": "vendor-6",
+          "price_score": 92,
+          "delivery_score": 75,
+          "qc_rejection_rate": 6.4,
+          "reliability_score": 80,
+          "previous_performance_score": 80
+        },
+        {
+          "vendor_id": "vendor-5",
+          "price_score": 85,
+          "delivery_score": 91,
+          "qc_rejection_rate": 2.9,
+          "reliability_score": 88,
+          "previous_performance_score": 80
+        },
+        {
+          "vendor_id": "vendor-3",
+          "price_score": 81,
+          "delivery_score": 67,
+          "qc_rejection_rate": 1.4,
+          "reliability_score": 76,
+          "previous_performance_score": 79
+        }
+      ],
+      "human_selected_vendor_id": "vendor-2"
+    },
+    {
+      "id": "compare-5",
+      "requirement_id": "req-5",
+      "recommended_vendor_id": "vendor-3",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-6",
+          "price_score": 92,
+          "delivery_score": 75,
+          "qc_rejection_rate": 6.4,
+          "reliability_score": 80,
+          "previous_performance_score": 80
+        },
+        {
+          "vendor_id": "vendor-2",
+          "price_score": 72,
+          "delivery_score": 71,
+          "qc_rejection_rate": 6.3,
+          "reliability_score": 87,
+          "previous_performance_score": 74
+        },
+        {
+          "vendor_id": "vendor-8",
+          "price_score": 79,
+          "delivery_score": 81,
+          "qc_rejection_rate": 7.3,
+          "reliability_score": 93,
+          "previous_performance_score": 86
+        },
+        {
+          "vendor_id": "vendor-3",
+          "price_score": 81,
+          "delivery_score": 67,
+          "qc_rejection_rate": 1.4,
+          "reliability_score": 76,
+          "previous_performance_score": 79
+        }
+      ],
+      "human_selected_vendor_id": "vendor-3"
+    },
+    {
+      "id": "compare-6",
+      "requirement_id": "req-6",
+      "recommended_vendor_id": "vendor-8",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-3",
+          "price_score": 81,
+          "delivery_score": 67,
+          "qc_rejection_rate": 1.4,
+          "reliability_score": 76,
+          "previous_performance_score": 79
+        },
+        {
+          "vendor_id": "vendor-6",
+          "price_score": 92,
+          "delivery_score": 75,
+          "qc_rejection_rate": 6.4,
+          "reliability_score": 80,
+          "previous_performance_score": 80
+        },
+        {
+          "vendor_id": "vendor-8",
+          "price_score": 79,
+          "delivery_score": 81,
+          "qc_rejection_rate": 7.3,
+          "reliability_score": 93,
+          "previous_performance_score": 86
+        },
+        {
+          "vendor_id": "vendor-2",
+          "price_score": 72,
+          "delivery_score": 71,
+          "qc_rejection_rate": 6.3,
+          "reliability_score": 87,
+          "previous_performance_score": 74
+        }
+      ],
+      "human_selected_vendor_id": "vendor-8"
+    },
+    {
+      "id": "compare-7",
+      "requirement_id": "req-7",
+      "recommended_vendor_id": "vendor-7",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-6",
+          "price_score": 92,
+          "delivery_score": 75,
+          "qc_rejection_rate": 6.4,
+          "reliability_score": 80,
+          "previous_performance_score": 80
+        },
+        {
+          "vendor_id": "vendor-5",
+          "price_score": 85,
+          "delivery_score": 91,
+          "qc_rejection_rate": 2.9,
+          "reliability_score": 88,
+          "previous_performance_score": 80
+        },
+        {
+          "vendor_id": "vendor-7",
+          "price_score": 74,
+          "delivery_score": 86,
+          "qc_rejection_rate": 2.0,
+          "reliability_score": 82,
+          "previous_performance_score": 75
+        },
+        {
+          "vendor_id": "vendor-2",
+          "price_score": 72,
+          "delivery_score": 71,
+          "qc_rejection_rate": 6.3,
+          "reliability_score": 87,
+          "previous_performance_score": 74
+        }
+      ],
+      "human_selected_vendor_id": "vendor-7"
+    },
+    {
+      "id": "compare-8",
+      "requirement_id": "req-8",
+      "recommended_vendor_id": "vendor-3",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-4",
+          "price_score": 87,
+          "delivery_score": 66,
+          "qc_rejection_rate": 5.4,
+          "reliability_score": 92,
+          "previous_performance_score": 92
+        },
+        {
+          "vendor_id": "vendor-6",
+          "price_score": 92,
+          "delivery_score": 75,
+          "qc_rejection_rate": 6.4,
+          "reliability_score": 80,
+          "previous_performance_score": 80
+        },
+        {
+          "vendor_id": "vendor-2",
+          "price_score": 72,
+          "delivery_score": 71,
+          "qc_rejection_rate": 6.3,
+          "reliability_score": 87,
+          "previous_performance_score": 74
+        },
+        {
+          "vendor_id": "vendor-1",
+          "price_score": 88,
+          "delivery_score": 72,
+          "qc_rejection_rate": 1.4,
+          "reliability_score": 78,
+          "previous_performance_score": 79
+        }
+      ],
+      "human_selected_vendor_id": "vendor-3"
+    },
+    {
+      "id": "compare-9",
+      "requirement_id": "req-9",
+      "recommended_vendor_id": "vendor-7",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-6",
+          "price_score": 92,
+          "delivery_score": 75,
+          "qc_rejection_rate": 6.4,
+          "reliability_score": 80,
+          "previous_performance_score": 80
+        },
+        {
+          "vendor_id": "vendor-7",
+          "price_score": 74,
+          "delivery_score": 86,
+          "qc_rejection_rate": 2.0,
+          "reliability_score": 82,
+          "previous_performance_score": 75
+        },
+        {
+          "vendor_id": "vendor-4",
+          "price_score": 87,
+          "delivery_score": 66,
+          "qc_rejection_rate": 5.4,
+          "reliability_score": 92,
+          "previous_performance_score": 92
+        },
+        {
+          "vendor_id": "vendor-2",
+          "price_score": 72,
+          "delivery_score": 71,
+          "qc_rejection_rate": 6.3,
+          "reliability_score": 87,
+          "previous_performance_score": 74
+        }
+      ],
+      "human_selected_vendor_id": "vendor-7"
+    },
+    {
+      "id": "compare-10",
+      "requirement_id": "req-10",
+      "recommended_vendor_id": "vendor-3",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-4",
+          "price_score": 87,
+          "delivery_score": 66,
+          "qc_rejection_rate": 5.4,
+          "reliability_score": 92,
+          "previous_performance_score": 92
+        },
+        {
+          "vendor_id": "vendor-2",
+          "price_score": 72,
+          "delivery_score": 71,
+          "qc_rejection_rate": 6.3,
+          "reliability_score": 87,
+          "previous_performance_score": 74
+        },
+        {
+          "vendor_id": "vendor-1",
+          "price_score": 88,
+          "delivery_score": 72,
+          "qc_rejection_rate": 1.4,
+          "reliability_score": 78,
+          "previous_performance_score": 79
+        },
+        {
+          "vendor_id": "vendor-7",
+          "price_score": 74,
+          "delivery_score": 86,
+          "qc_rejection_rate": 2.0,
+          "reliability_score": 82,
+          "previous_performance_score": 75
+        }
+      ],
+      "human_selected_vendor_id": "vendor-3"
+    },
+    {
+      "id": "compare-11",
+      "requirement_id": "req-11",
+      "recommended_vendor_id": "vendor-6",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-2",
+          "price_score": 72,
+          "delivery_score": 71,
+          "qc_rejection_rate": 6.3,
+          "reliability_score": 87,
+          "previous_performance_score": 74
+        },
+        {
+          "vendor_id": "vendor-3",
+          "price_score": 81,
+          "delivery_score": 67,
+          "qc_rejection_rate": 1.4,
+          "reliability_score": 76,
+          "previous_performance_score": 79
+        },
+        {
+          "vendor_id": "vendor-8",
+          "price_score": 79,
+          "delivery_score": 81,
+          "qc_rejection_rate": 7.3,
+          "reliability_score": 93,
+          "previous_performance_score": 86
+        },
+        {
+          "vendor_id": "vendor-5",
+          "price_score": 85,
+          "delivery_score": 91,
+          "qc_rejection_rate": 2.9,
+          "reliability_score": 88,
+          "previous_performance_score": 80
+        }
+      ],
+      "human_selected_vendor_id": "vendor-6"
+    },
+    {
+      "id": "compare-12",
+      "requirement_id": "req-12",
+      "recommended_vendor_id": "vendor-1",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-2",
+          "price_score": 72,
+          "delivery_score": 71,
+          "qc_rejection_rate": 6.3,
+          "reliability_score": 87,
+          "previous_performance_score": 74
+        },
+        {
+          "vendor_id": "vendor-4",
+          "price_score": 87,
+          "delivery_score": 66,
+          "qc_rejection_rate": 5.4,
+          "reliability_score": 92,
+          "previous_performance_score": 92
+        },
+        {
+          "vendor_id": "vendor-5",
+          "price_score": 85,
+          "delivery_score": 91,
+          "qc_rejection_rate": 2.9,
+          "reliability_score": 88,
+          "previous_performance_score": 80
+        },
+        {
+          "vendor_id": "vendor-8",
+          "price_score": 79,
+          "delivery_score": 81,
+          "qc_rejection_rate": 7.3,
+          "reliability_score": 93,
+          "previous_performance_score": 86
+        }
+      ],
+      "human_selected_vendor_id": "vendor-1"
+    },
+    {
+      "id": "compare-13",
+      "requirement_id": "req-13",
+      "recommended_vendor_id": "vendor-1",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-2",
+          "price_score": 72,
+          "delivery_score": 71,
+          "qc_rejection_rate": 6.3,
+          "reliability_score": 87,
+          "previous_performance_score": 74
+        },
+        {
+          "vendor_id": "vendor-6",
+          "price_score": 92,
+          "delivery_score": 75,
+          "qc_rejection_rate": 6.4,
+          "reliability_score": 80,
+          "previous_performance_score": 80
+        },
+        {
+          "vendor_id": "vendor-3",
+          "price_score": 81,
+          "delivery_score": 67,
+          "qc_rejection_rate": 1.4,
+          "reliability_score": 76,
+          "previous_performance_score": 79
+        },
+        {
+          "vendor_id": "vendor-5",
+          "price_score": 85,
+          "delivery_score": 91,
+          "qc_rejection_rate": 2.9,
+          "reliability_score": 88,
+          "previous_performance_score": 80
+        }
+      ],
+      "human_selected_vendor_id": "vendor-1"
+    },
+    {
+      "id": "compare-14",
+      "requirement_id": "req-14",
+      "recommended_vendor_id": "vendor-2",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-4",
+          "price_score": 87,
+          "delivery_score": 66,
+          "qc_rejection_rate": 5.4,
+          "reliability_score": 92,
+          "previous_performance_score": 92
+        },
+        {
+          "vendor_id": "vendor-8",
+          "price_score": 79,
+          "delivery_score": 81,
+          "qc_rejection_rate": 7.3,
+          "reliability_score": 93,
+          "previous_performance_score": 86
+        },
+        {
+          "vendor_id": "vendor-6",
+          "price_score": 92,
+          "delivery_score": 75,
+          "qc_rejection_rate": 6.4,
+          "reliability_score": 80,
+          "previous_performance_score": 80
+        },
+        {
+          "vendor_id": "vendor-7",
+          "price_score": 74,
+          "delivery_score": 86,
+          "qc_rejection_rate": 2.0,
+          "reliability_score": 82,
+          "previous_performance_score": 75
+        }
+      ],
+      "human_selected_vendor_id": "vendor-2"
+    },
+    {
+      "id": "compare-15",
+      "requirement_id": "req-15",
+      "recommended_vendor_id": "vendor-5",
+      "comparison_snapshot": [
+        {
+          "vendor_id": "vendor-8",
+          "price_score": 79,
+          "delivery_score": 81,
+          "qc_rejection_rate": 7.3,
+          "reliability_score": 93,
+          "previous_performance_score": 86
+        },
+        {
+          "vendor_id": "vendor-6",
+          "price_score": 92,
+          "delivery_score": 75,
+          "qc_rejection_rate": 6.4,
+          "reliability_score": 80,
+          "previous_performance_score": 80
+        },
+        {
+          "vendor_id": "vendor-2",
+          "price_score": 72,
+          "delivery_score": 71,
+          "qc_rejection_rate": 6.3,
+          "reliability_score": 87,
+          "previous_performance_score": 74
+        },
+        {
+          "vendor_id": "vendor-5",
+          "price_score": 85,
+          "delivery_score": 91,
+          "qc_rejection_rate": 2.9,
+          "reliability_score": 88,
+          "previous_performance_score": 80
+        }
+      ],
+      "human_selected_vendor_id": "vendor-5"
+    }
+  ],
+  "purchase_orders": [
+    {
+      "id": "po-1",
+      "po_number": "PO-2026-001",
+      "vendor_id": "vendor-3",
+      "requirement_id": "req-1",
+      "status": "draft",
+      "payment_status": "not_requested",
+      "delivery_status": "Reached yard",
+      "po_date": "2026-03-08",
+      "expected_delivery_date": "2026-03-19",
+      "advance_percentage": 20,
+      "created_by": "user-biplob"
+    },
+    {
+      "id": "po-2",
+      "po_number": "PO-2026-002",
+      "vendor_id": "vendor-1",
+      "requirement_id": "req-2",
+      "status": "draft",
+      "payment_status": "advance_requested",
+      "delivery_status": "Dispatched",
+      "po_date": "2026-03-07",
+      "expected_delivery_date": "2026-03-13",
+      "advance_percentage": 40,
+      "created_by": "user-biplob"
+    },
+    {
+      "id": "po-3",
+      "po_number": "PO-2026-003",
+      "vendor_id": "vendor-5",
+      "requirement_id": "req-3",
+      "status": "closed",
+      "payment_status": "under_finance_review",
+      "delivery_status": "Dispatch pending",
+      "po_date": "2026-03-06",
+      "expected_delivery_date": "2026-03-09",
+      "advance_percentage": 20,
+      "created_by": "user-biplob"
+    },
+    {
+      "id": "po-4",
+      "po_number": "PO-2026-004",
+      "vendor_id": "vendor-2",
+      "requirement_id": "req-4",
+      "status": "issued",
+      "payment_status": "advance_paid",
+      "delivery_status": "Dispatch pending",
+      "po_date": "2026-03-05",
+      "expected_delivery_date": "2026-03-17",
+      "advance_percentage": 30,
+      "created_by": "user-biplob"
+    },
+    {
+      "id": "po-5",
+      "po_number": "PO-2026-005",
+      "vendor_id": "vendor-3",
+      "requirement_id": "req-5",
+      "status": "partially_received",
+      "payment_status": "vendor_confirmed",
+      "delivery_status": "PO issued",
+      "po_date": "2026-03-04",
+      "expected_delivery_date": "2026-03-15",
+      "advance_percentage": 20,
+      "created_by": "user-biplob"
+    },
+    {
+      "id": "po-6",
+      "po_number": "PO-2026-006",
+      "vendor_id": "vendor-8",
+      "requirement_id": "req-6",
+      "status": "partially_received",
+      "payment_status": "settled",
+      "delivery_status": "Vendor selected",
+      "po_date": "2026-03-03",
+      "expected_delivery_date": "2026-03-14",
+      "advance_percentage": 20,
+      "created_by": "user-biplob"
+    },
+    {
+      "id": "po-7",
+      "po_number": "PO-2026-007",
+      "vendor_id": "vendor-7",
+      "requirement_id": "req-7",
+      "status": "draft",
+      "payment_status": "on_hold",
+      "delivery_status": "PO issued",
+      "po_date": "2026-03-02",
+      "expected_delivery_date": "2026-03-10",
+      "advance_percentage": 20,
+      "created_by": "user-biplob"
+    },
+    {
+      "id": "po-8",
+      "po_number": "PO-2026-008",
+      "vendor_id": "vendor-3",
+      "requirement_id": "req-8",
+      "status": "draft",
+      "payment_status": "not_requested",
+      "delivery_status": "Vendor confirmed",
+      "po_date": "2026-03-01",
+      "expected_delivery_date": "2026-03-12",
+      "advance_percentage": 30,
+      "created_by": "user-biplob"
+    },
+    {
+      "id": "po-9",
+      "po_number": "PO-2026-009",
+      "vendor_id": "vendor-7",
+      "requirement_id": "req-9",
+      "status": "issued",
+      "payment_status": "advance_requested",
+      "delivery_status": "Advance paid",
+      "po_date": "2026-02-28",
+      "expected_delivery_date": "2026-03-08",
+      "advance_percentage": 20,
+      "created_by": "user-biplob"
+    },
+    {
+      "id": "po-10",
+      "po_number": "PO-2026-010",
+      "vendor_id": "vendor-3",
+      "requirement_id": "req-10",
+      "status": "draft",
+      "payment_status": "under_finance_review",
+      "delivery_status": "Dispatched",
+      "po_date": "2026-02-27",
+      "expected_delivery_date": "2026-03-10",
+      "advance_percentage": 20,
+      "created_by": "user-biplob"
+    },
+    {
+      "id": "po-11",
+      "po_number": "PO-2026-011",
+      "vendor_id": "vendor-6",
+      "requirement_id": "req-11",
+      "status": "partially_received",
+      "payment_status": "advance_paid",
+      "delivery_status": "PO issued",
+      "po_date": "2026-02-26",
+      "expected_delivery_date": "2026-03-03",
+      "advance_percentage": 30,
+      "created_by": "user-biplob"
+    },
+    {
+      "id": "po-12",
+      "po_number": "PO-2026-012",
+      "vendor_id": "vendor-1",
+      "requirement_id": "req-12",
+      "status": "draft",
+      "payment_status": "vendor_confirmed",
+      "delivery_status": "Received",
+      "po_date": "2026-02-25",
+      "expected_delivery_date": "2026-03-03",
+      "advance_percentage": 30,
+      "created_by": "user-biplob"
+    },
+    {
+      "id": "po-13",
+      "po_number": "PO-2026-013",
+      "vendor_id": "vendor-1",
+      "requirement_id": "req-13",
+      "status": "closed",
+      "payment_status": "settled",
+      "delivery_status": "Vendor selected",
+      "po_date": "2026-02-24",
+      "expected_delivery_date": "2026-03-02",
+      "advance_percentage": 40,
+      "created_by": "user-biplob"
+    },
+    {
+      "id": "po-14",
+      "po_number": "PO-2026-014",
+      "vendor_id": "vendor-2",
+      "requirement_id": "req-14",
+      "status": "partially_received",
+      "payment_status": "on_hold",
+      "delivery_status": "Reached yard",
+      "po_date": "2026-02-23",
+      "expected_delivery_date": "2026-03-07",
+      "advance_percentage": 30,
+      "created_by": "user-biplob"
+    },
+    {
+      "id": "po-15",
+      "po_number": "PO-2026-015",
+      "vendor_id": "vendor-5",
+      "requirement_id": "req-15",
+      "status": "closed",
+      "payment_status": "not_requested",
+      "delivery_status": "Reached yard",
+      "po_date": "2026-02-22",
+      "expected_delivery_date": "2026-02-25",
+      "advance_percentage": 20,
+      "created_by": "user-biplob"
+    }
+  ],
+  "purchase_order_items": [
+    {
+      "id": "po-item-1",
+      "purchase_order_id": "po-1",
+      "item_id": "item-1",
+      "quantity": 46,
+      "unit_price": 727.36,
+      "currency": "USD"
+    },
+    {
+      "id": "po-item-2",
+      "purchase_order_id": "po-2",
+      "item_id": "item-2",
+      "quantity": 45,
+      "unit_price": 506.53,
+      "currency": "USD"
+    },
+    {
+      "id": "po-item-3",
+      "purchase_order_id": "po-3",
+      "item_id": "item-3",
+      "quantity": 22,
+      "unit_price": 32.69,
+      "currency": "USD"
+    },
+    {
+      "id": "po-item-4",
+      "purchase_order_id": "po-4",
+      "item_id": "item-4",
+      "quantity": 22,
+      "unit_price": 155.14,
+      "currency": "USD"
+    },
+    {
+      "id": "po-item-5",
+      "purchase_order_id": "po-5",
+      "item_id": "item-5",
+      "quantity": 59,
+      "unit_price": 637.49,
+      "currency": "USD"
+    },
+    {
+      "id": "po-item-6",
+      "purchase_order_id": "po-6",
+      "item_id": "item-6",
+      "quantity": 19,
+      "unit_price": 548.28,
+      "currency": "USD"
+    },
+    {
+      "id": "po-item-7",
+      "purchase_order_id": "po-7",
+      "item_id": "item-7",
+      "quantity": 38,
+      "unit_price": 804.67,
+      "currency": "USD"
+    },
+    {
+      "id": "po-item-8",
+      "purchase_order_id": "po-8",
+      "item_id": "item-8",
+      "quantity": 52,
+      "unit_price": 766.66,
+      "currency": "USD"
+    },
+    {
+      "id": "po-item-9",
+      "purchase_order_id": "po-9",
+      "item_id": "item-9",
+      "quantity": 35,
+      "unit_price": 830.37,
+      "currency": "USD"
+    },
+    {
+      "id": "po-item-10",
+      "purchase_order_id": "po-10",
+      "item_id": "item-10",
+      "quantity": 65,
+      "unit_price": 733.34,
+      "currency": "USD"
+    },
+    {
+      "id": "po-item-11",
+      "purchase_order_id": "po-11",
+      "item_id": "item-11",
+      "quantity": 44,
+      "unit_price": 314.7,
+      "currency": "USD"
+    },
+    {
+      "id": "po-item-12",
+      "purchase_order_id": "po-12",
+      "item_id": "item-12",
+      "quantity": 33,
+      "unit_price": 310.19,
+      "currency": "USD"
+    },
+    {
+      "id": "po-item-13",
+      "purchase_order_id": "po-13",
+      "item_id": "item-13",
+      "quantity": 12,
+      "unit_price": 788.6,
+      "currency": "USD"
+    },
+    {
+      "id": "po-item-14",
+      "purchase_order_id": "po-14",
+      "item_id": "item-14",
+      "quantity": 67,
+      "unit_price": 575.19,
+      "currency": "USD"
+    },
+    {
+      "id": "po-item-15",
+      "purchase_order_id": "po-15",
+      "item_id": "item-15",
+      "quantity": 17,
+      "unit_price": 275.7,
+      "currency": "USD"
+    }
+  ],
+  "payment_requests": [
+    {
+      "id": "payment-request-1",
+      "purchase_order_id": "po-1",
+      "status": "not_requested",
+      "amount": 2164.86,
+      "requested_on": "2026-03-09",
+      "requested_by": "user-biplob"
+    },
+    {
+      "id": "payment-request-2",
+      "purchase_order_id": "po-2",
+      "status": "advance_requested",
+      "amount": 9887.31,
+      "requested_on": "2026-03-08",
+      "requested_by": "user-biplob"
+    },
+    {
+      "id": "payment-request-3",
+      "purchase_order_id": "po-3",
+      "status": "under_finance_review",
+      "amount": 11559.71,
+      "requested_on": "2026-03-07",
+      "requested_by": "user-biplob"
+    },
+    {
+      "id": "payment-request-4",
+      "purchase_order_id": "po-4",
+      "status": "advance_paid",
+      "amount": 15173.66,
+      "requested_on": "2026-03-06",
+      "requested_by": "user-biplob"
+    },
+    {
+      "id": "payment-request-5",
+      "purchase_order_id": "po-5",
+      "status": "vendor_confirmed",
+      "amount": 3642.61,
+      "requested_on": "2026-03-05",
+      "requested_by": "user-biplob"
+    },
+    {
+      "id": "payment-request-6",
+      "purchase_order_id": "po-6",
+      "status": "settled",
+      "amount": 15098.92,
+      "requested_on": "2026-03-04",
+      "requested_by": "user-biplob"
+    },
+    {
+      "id": "payment-request-7",
+      "purchase_order_id": "po-7",
+      "status": "on_hold",
+      "amount": 12747.33,
+      "requested_on": "2026-03-03",
+      "requested_by": "user-biplob"
+    },
+    {
+      "id": "payment-request-8",
+      "purchase_order_id": "po-8",
+      "status": "not_requested",
+      "amount": 14534.08,
+      "requested_on": "2026-03-02",
+      "requested_by": "user-biplob"
+    },
+    {
+      "id": "payment-request-9",
+      "purchase_order_id": "po-9",
+      "status": "advance_requested",
+      "amount": 14783.12,
+      "requested_on": "2026-03-01",
+      "requested_by": "user-biplob"
+    },
+    {
+      "id": "payment-request-10",
+      "purchase_order_id": "po-10",
+      "status": "under_finance_review",
+      "amount": 4781.37,
+      "requested_on": "2026-02-28",
+      "requested_by": "user-biplob"
+    },
+    {
+      "id": "payment-request-11",
+      "purchase_order_id": "po-11",
+      "status": "advance_paid",
+      "amount": 9659.9,
+      "requested_on": "2026-02-27",
+      "requested_by": "user-biplob"
+    },
+    {
+      "id": "payment-request-12",
+      "purchase_order_id": "po-12",
+      "status": "vendor_confirmed",
+      "amount": 14369.28,
+      "requested_on": "2026-02-26",
+      "requested_by": "user-biplob"
+    },
+    {
+      "id": "payment-request-13",
+      "purchase_order_id": "po-13",
+      "status": "settled",
+      "amount": 10153.68,
+      "requested_on": "2026-02-25",
+      "requested_by": "user-biplob"
+    },
+    {
+      "id": "payment-request-14",
+      "purchase_order_id": "po-14",
+      "status": "on_hold",
+      "amount": 6545.11,
+      "requested_on": "2026-02-24",
+      "requested_by": "user-biplob"
+    },
+    {
+      "id": "payment-request-15",
+      "purchase_order_id": "po-15",
+      "status": "not_requested",
+      "amount": 4573.11,
+      "requested_on": "2026-02-23",
+      "requested_by": "user-biplob"
+    }
+  ],
+  "payment_transactions": [
+    {
+      "id": "payment-tx-1",
+      "purchase_order_id": "po-1",
+      "status": "advance_paid",
+      "amount": 8264.94,
+      "transaction_date": "2026-03-11",
+      "reference_number": "ADV-0001"
+    },
+    {
+      "id": "payment-tx-2",
+      "purchase_order_id": "po-2",
+      "status": "settled",
+      "amount": 2848.98,
+      "transaction_date": "2026-03-10",
+      "reference_number": "ADV-0002"
+    },
+    {
+      "id": "payment-tx-3",
+      "purchase_order_id": "po-3",
+      "status": "advance_paid",
+      "amount": 1342.5,
+      "transaction_date": "2026-03-09",
+      "reference_number": "ADV-0003"
+    },
+    {
+      "id": "payment-tx-4",
+      "purchase_order_id": "po-4",
+      "status": "settled",
+      "amount": 7534.29,
+      "transaction_date": "2026-03-08",
+      "reference_number": "ADV-0004"
+    },
+    {
+      "id": "payment-tx-5",
+      "purchase_order_id": "po-5",
+      "status": "settled",
+      "amount": 7455.54,
+      "transaction_date": "2026-03-07",
+      "reference_number": "ADV-0005"
+    },
+    {
+      "id": "payment-tx-6",
+      "purchase_order_id": "po-6",
+      "status": "advance_paid",
+      "amount": 540.78,
+      "transaction_date": "2026-03-06",
+      "reference_number": "ADV-0006"
+    },
+    {
+      "id": "payment-tx-7",
+      "purchase_order_id": "po-7",
+      "status": "vendor_confirmed",
+      "amount": 6774.29,
+      "transaction_date": "2026-03-05",
+      "reference_number": "ADV-0007"
+    },
+    {
+      "id": "payment-tx-8",
+      "purchase_order_id": "po-8",
+      "status": "advance_paid",
+      "amount": 10837.63,
+      "transaction_date": "2026-03-04",
+      "reference_number": "ADV-0008"
+    },
+    {
+      "id": "payment-tx-9",
+      "purchase_order_id": "po-9",
+      "status": "on_hold",
+      "amount": 785.04,
+      "transaction_date": "2026-03-03",
+      "reference_number": "ADV-0009"
+    },
+    {
+      "id": "payment-tx-10",
+      "purchase_order_id": "po-10",
+      "status": "on_hold",
+      "amount": 4521.07,
+      "transaction_date": "2026-03-02",
+      "reference_number": "ADV-0010"
+    },
+    {
+      "id": "payment-tx-11",
+      "purchase_order_id": "po-11",
+      "status": "settled",
+      "amount": 11301.23,
+      "transaction_date": "2026-03-01",
+      "reference_number": "ADV-0011"
+    },
+    {
+      "id": "payment-tx-12",
+      "purchase_order_id": "po-12",
+      "status": "on_hold",
+      "amount": 7471.4,
+      "transaction_date": "2026-02-28",
+      "reference_number": "ADV-0012"
+    },
+    {
+      "id": "payment-tx-13",
+      "purchase_order_id": "po-13",
+      "status": "vendor_confirmed",
+      "amount": 4688.55,
+      "transaction_date": "2026-02-27",
+      "reference_number": "ADV-0013"
+    },
+    {
+      "id": "payment-tx-14",
+      "purchase_order_id": "po-14",
+      "status": "settled",
+      "amount": 6875.74,
+      "transaction_date": "2026-02-26",
+      "reference_number": "ADV-0014"
+    },
+    {
+      "id": "payment-tx-15",
+      "purchase_order_id": "po-15",
+      "status": "settled",
+      "amount": 5847.36,
+      "transaction_date": "2026-02-25",
+      "reference_number": "ADV-0015"
+    }
+  ],
+  "delivery_events": [
+    {
+      "id": "delivery-1-1",
+      "purchase_order_id": "po-1",
+      "status": "RFQ sent",
+      "event_date": "2026-03-08",
+      "note": "RFQ sent logged for po-1."
+    },
+    {
+      "id": "delivery-1-2",
+      "purchase_order_id": "po-1",
+      "status": "Quote received",
+      "event_date": "2026-03-09",
+      "note": "Quote received logged for po-1."
+    },
+    {
+      "id": "delivery-1-3",
+      "purchase_order_id": "po-1",
+      "status": "Vendor selected",
+      "event_date": "2026-03-10",
+      "note": "Vendor selected logged for po-1."
+    },
+    {
+      "id": "delivery-1-4",
+      "purchase_order_id": "po-1",
+      "status": "PO issued",
+      "event_date": "2026-03-11",
+      "note": "PO issued logged for po-1."
+    },
+    {
+      "id": "delivery-1-5",
+      "purchase_order_id": "po-1",
+      "status": "Advance requested",
+      "event_date": "2026-03-12",
+      "note": "Advance requested logged for po-1."
+    },
+    {
+      "id": "delivery-1-6",
+      "purchase_order_id": "po-1",
+      "status": "Advance paid",
+      "event_date": "2026-03-13",
+      "note": "Advance paid logged for po-1."
+    },
+    {
+      "id": "delivery-1-7",
+      "purchase_order_id": "po-1",
+      "status": "Vendor confirmed",
+      "event_date": "2026-03-14",
+      "note": "Vendor confirmed logged for po-1."
+    },
+    {
+      "id": "delivery-1-8",
+      "purchase_order_id": "po-1",
+      "status": "Dispatch pending",
+      "event_date": "2026-03-15",
+      "note": "Dispatch pending logged for po-1."
+    },
+    {
+      "id": "delivery-1-9",
+      "purchase_order_id": "po-1",
+      "status": "Dispatched",
+      "event_date": "2026-03-16",
+      "note": "Dispatched logged for po-1."
+    },
+    {
+      "id": "delivery-2-1",
+      "purchase_order_id": "po-2",
+      "status": "RFQ sent",
+      "event_date": "2026-03-07",
+      "note": "RFQ sent logged for po-2."
+    },
+    {
+      "id": "delivery-2-2",
+      "purchase_order_id": "po-2",
+      "status": "Quote received",
+      "event_date": "2026-03-08",
+      "note": "Quote received logged for po-2."
+    },
+    {
+      "id": "delivery-2-3",
+      "purchase_order_id": "po-2",
+      "status": "Vendor selected",
+      "event_date": "2026-03-09",
+      "note": "Vendor selected logged for po-2."
+    },
+    {
+      "id": "delivery-2-4",
+      "purchase_order_id": "po-2",
+      "status": "PO issued",
+      "event_date": "2026-03-10",
+      "note": "PO issued logged for po-2."
+    },
+    {
+      "id": "delivery-2-5",
+      "purchase_order_id": "po-2",
+      "status": "Advance requested",
+      "event_date": "2026-03-11",
+      "note": "Advance requested logged for po-2."
+    },
+    {
+      "id": "delivery-2-6",
+      "purchase_order_id": "po-2",
+      "status": "Advance paid",
+      "event_date": "2026-03-12",
+      "note": "Advance paid logged for po-2."
+    },
+    {
+      "id": "delivery-2-7",
+      "purchase_order_id": "po-2",
+      "status": "Vendor confirmed",
+      "event_date": "2026-03-13",
+      "note": "Vendor confirmed logged for po-2."
+    },
+    {
+      "id": "delivery-2-8",
+      "purchase_order_id": "po-2",
+      "status": "Dispatch pending",
+      "event_date": "2026-03-14",
+      "note": "Dispatch pending logged for po-2."
+    },
+    {
+      "id": "delivery-3-1",
+      "purchase_order_id": "po-3",
+      "status": "RFQ sent",
+      "event_date": "2026-03-06",
+      "note": "RFQ sent logged for po-3."
+    },
+    {
+      "id": "delivery-3-2",
+      "purchase_order_id": "po-3",
+      "status": "Quote received",
+      "event_date": "2026-03-07",
+      "note": "Quote received logged for po-3."
+    },
+    {
+      "id": "delivery-3-3",
+      "purchase_order_id": "po-3",
+      "status": "Vendor selected",
+      "event_date": "2026-03-08",
+      "note": "Vendor selected logged for po-3."
+    },
+    {
+      "id": "delivery-3-4",
+      "purchase_order_id": "po-3",
+      "status": "PO issued",
+      "event_date": "2026-03-09",
+      "note": "PO issued logged for po-3."
+    },
+    {
+      "id": "delivery-3-5",
+      "purchase_order_id": "po-3",
+      "status": "Advance requested",
+      "event_date": "2026-03-10",
+      "note": "Advance requested logged for po-3."
+    },
+    {
+      "id": "delivery-3-6",
+      "purchase_order_id": "po-3",
+      "status": "Advance paid",
+      "event_date": "2026-03-11",
+      "note": "Advance paid logged for po-3."
+    },
+    {
+      "id": "delivery-3-7",
+      "purchase_order_id": "po-3",
+      "status": "Vendor confirmed",
+      "event_date": "2026-03-12",
+      "note": "Vendor confirmed logged for po-3."
+    },
+    {
+      "id": "delivery-3-8",
+      "purchase_order_id": "po-3",
+      "status": "Dispatch pending",
+      "event_date": "2026-03-13",
+      "note": "Dispatch pending logged for po-3."
+    },
+    {
+      "id": "delivery-3-9",
+      "purchase_order_id": "po-3",
+      "status": "Dispatched",
+      "event_date": "2026-03-14",
+      "note": "Dispatched logged for po-3."
+    },
+    {
+      "id": "delivery-3-10",
+      "purchase_order_id": "po-3",
+      "status": "In transit",
+      "event_date": "2026-03-15",
+      "note": "In transit logged for po-3."
+    },
+    {
+      "id": "delivery-3-11",
+      "purchase_order_id": "po-3",
+      "status": "Reached yard",
+      "event_date": "2026-03-16",
+      "note": "Reached yard logged for po-3."
+    },
+    {
+      "id": "delivery-4-1",
+      "purchase_order_id": "po-4",
+      "status": "RFQ sent",
+      "event_date": "2026-03-05",
+      "note": "RFQ sent logged for po-4."
+    },
+    {
+      "id": "delivery-4-2",
+      "purchase_order_id": "po-4",
+      "status": "Quote received",
+      "event_date": "2026-03-06",
+      "note": "Quote received logged for po-4."
+    },
+    {
+      "id": "delivery-4-3",
+      "purchase_order_id": "po-4",
+      "status": "Vendor selected",
+      "event_date": "2026-03-07",
+      "note": "Vendor selected logged for po-4."
+    },
+    {
+      "id": "delivery-4-4",
+      "purchase_order_id": "po-4",
+      "status": "PO issued",
+      "event_date": "2026-03-08",
+      "note": "PO issued logged for po-4."
+    },
+    {
+      "id": "delivery-4-5",
+      "purchase_order_id": "po-4",
+      "status": "Advance requested",
+      "event_date": "2026-03-09",
+      "note": "Advance requested logged for po-4."
+    },
+    {
+      "id": "delivery-4-6",
+      "purchase_order_id": "po-4",
+      "status": "Advance paid",
+      "event_date": "2026-03-10",
+      "note": "Advance paid logged for po-4."
+    },
+    {
+      "id": "delivery-4-7",
+      "purchase_order_id": "po-4",
+      "status": "Vendor confirmed",
+      "event_date": "2026-03-11",
+      "note": "Vendor confirmed logged for po-4."
+    },
+    {
+      "id": "delivery-5-1",
+      "purchase_order_id": "po-5",
+      "status": "RFQ sent",
+      "event_date": "2026-03-04",
+      "note": "RFQ sent logged for po-5."
+    },
+    {
+      "id": "delivery-5-2",
+      "purchase_order_id": "po-5",
+      "status": "Quote received",
+      "event_date": "2026-03-05",
+      "note": "Quote received logged for po-5."
+    },
+    {
+      "id": "delivery-5-3",
+      "purchase_order_id": "po-5",
+      "status": "Vendor selected",
+      "event_date": "2026-03-06",
+      "note": "Vendor selected logged for po-5."
+    },
+    {
+      "id": "delivery-5-4",
+      "purchase_order_id": "po-5",
+      "status": "PO issued",
+      "event_date": "2026-03-07",
+      "note": "PO issued logged for po-5."
+    },
+    {
+      "id": "delivery-5-5",
+      "purchase_order_id": "po-5",
+      "status": "Advance requested",
+      "event_date": "2026-03-08",
+      "note": "Advance requested logged for po-5."
+    },
+    {
+      "id": "delivery-5-6",
+      "purchase_order_id": "po-5",
+      "status": "Advance paid",
+      "event_date": "2026-03-09",
+      "note": "Advance paid logged for po-5."
+    },
+    {
+      "id": "delivery-5-7",
+      "purchase_order_id": "po-5",
+      "status": "Vendor confirmed",
+      "event_date": "2026-03-10",
+      "note": "Vendor confirmed logged for po-5."
+    },
+    {
+      "id": "delivery-5-8",
+      "purchase_order_id": "po-5",
+      "status": "Dispatch pending",
+      "event_date": "2026-03-11",
+      "note": "Dispatch pending logged for po-5."
+    },
+    {
+      "id": "delivery-5-9",
+      "purchase_order_id": "po-5",
+      "status": "Dispatched",
+      "event_date": "2026-03-12",
+      "note": "Dispatched logged for po-5."
+    },
+    {
+      "id": "delivery-5-10",
+      "purchase_order_id": "po-5",
+      "status": "In transit",
+      "event_date": "2026-03-13",
+      "note": "In transit logged for po-5."
+    },
+    {
+      "id": "delivery-5-11",
+      "purchase_order_id": "po-5",
+      "status": "Reached yard",
+      "event_date": "2026-03-14",
+      "note": "Reached yard logged for po-5."
+    },
+    {
+      "id": "delivery-5-12",
+      "purchase_order_id": "po-5",
+      "status": "Received",
+      "event_date": "2026-03-15",
+      "note": "Received logged for po-5."
+    },
+    {
+      "id": "delivery-5-13",
+      "purchase_order_id": "po-5",
+      "status": "Under QC",
+      "event_date": "2026-03-16",
+      "note": "Under QC logged for po-5."
+    },
+    {
+      "id": "delivery-5-14",
+      "purchase_order_id": "po-5",
+      "status": "QC passed",
+      "event_date": "2026-03-17",
+      "note": "QC passed logged for po-5."
+    },
+    {
+      "id": "delivery-6-1",
+      "purchase_order_id": "po-6",
+      "status": "RFQ sent",
+      "event_date": "2026-03-03",
+      "note": "RFQ sent logged for po-6."
+    },
+    {
+      "id": "delivery-6-2",
+      "purchase_order_id": "po-6",
+      "status": "Quote received",
+      "event_date": "2026-03-04",
+      "note": "Quote received logged for po-6."
+    },
+    {
+      "id": "delivery-6-3",
+      "purchase_order_id": "po-6",
+      "status": "Vendor selected",
+      "event_date": "2026-03-05",
+      "note": "Vendor selected logged for po-6."
+    },
+    {
+      "id": "delivery-6-4",
+      "purchase_order_id": "po-6",
+      "status": "PO issued",
+      "event_date": "2026-03-06",
+      "note": "PO issued logged for po-6."
+    },
+    {
+      "id": "delivery-6-5",
+      "purchase_order_id": "po-6",
+      "status": "Advance requested",
+      "event_date": "2026-03-07",
+      "note": "Advance requested logged for po-6."
+    },
+    {
+      "id": "delivery-6-6",
+      "purchase_order_id": "po-6",
+      "status": "Advance paid",
+      "event_date": "2026-03-08",
+      "note": "Advance paid logged for po-6."
+    },
+    {
+      "id": "delivery-6-7",
+      "purchase_order_id": "po-6",
+      "status": "Vendor confirmed",
+      "event_date": "2026-03-09",
+      "note": "Vendor confirmed logged for po-6."
+    },
+    {
+      "id": "delivery-6-8",
+      "purchase_order_id": "po-6",
+      "status": "Dispatch pending",
+      "event_date": "2026-03-10",
+      "note": "Dispatch pending logged for po-6."
+    },
+    {
+      "id": "delivery-6-9",
+      "purchase_order_id": "po-6",
+      "status": "Dispatched",
+      "event_date": "2026-03-11",
+      "note": "Dispatched logged for po-6."
+    },
+    {
+      "id": "delivery-6-10",
+      "purchase_order_id": "po-6",
+      "status": "In transit",
+      "event_date": "2026-03-12",
+      "note": "In transit logged for po-6."
+    },
+    {
+      "id": "delivery-6-11",
+      "purchase_order_id": "po-6",
+      "status": "Reached yard",
+      "event_date": "2026-03-13",
+      "note": "Reached yard logged for po-6."
+    },
+    {
+      "id": "delivery-6-12",
+      "purchase_order_id": "po-6",
+      "status": "Received",
+      "event_date": "2026-03-14",
+      "note": "Received logged for po-6."
+    },
+    {
+      "id": "delivery-6-13",
+      "purchase_order_id": "po-6",
+      "status": "Under QC",
+      "event_date": "2026-03-15",
+      "note": "Under QC logged for po-6."
+    },
+    {
+      "id": "delivery-7-1",
+      "purchase_order_id": "po-7",
+      "status": "RFQ sent",
+      "event_date": "2026-03-02",
+      "note": "RFQ sent logged for po-7."
+    },
+    {
+      "id": "delivery-7-2",
+      "purchase_order_id": "po-7",
+      "status": "Quote received",
+      "event_date": "2026-03-03",
+      "note": "Quote received logged for po-7."
+    },
+    {
+      "id": "delivery-7-3",
+      "purchase_order_id": "po-7",
+      "status": "Vendor selected",
+      "event_date": "2026-03-04",
+      "note": "Vendor selected logged for po-7."
+    },
+    {
+      "id": "delivery-7-4",
+      "purchase_order_id": "po-7",
+      "status": "PO issued",
+      "event_date": "2026-03-05",
+      "note": "PO issued logged for po-7."
+    },
+    {
+      "id": "delivery-7-5",
+      "purchase_order_id": "po-7",
+      "status": "Advance requested",
+      "event_date": "2026-03-06",
+      "note": "Advance requested logged for po-7."
+    },
+    {
+      "id": "delivery-7-6",
+      "purchase_order_id": "po-7",
+      "status": "Advance paid",
+      "event_date": "2026-03-07",
+      "note": "Advance paid logged for po-7."
+    },
+    {
+      "id": "delivery-7-7",
+      "purchase_order_id": "po-7",
+      "status": "Vendor confirmed",
+      "event_date": "2026-03-08",
+      "note": "Vendor confirmed logged for po-7."
+    },
+    {
+      "id": "delivery-7-8",
+      "purchase_order_id": "po-7",
+      "status": "Dispatch pending",
+      "event_date": "2026-03-09",
+      "note": "Dispatch pending logged for po-7."
+    },
+    {
+      "id": "delivery-7-9",
+      "purchase_order_id": "po-7",
+      "status": "Dispatched",
+      "event_date": "2026-03-10",
+      "note": "Dispatched logged for po-7."
+    },
+    {
+      "id": "delivery-7-10",
+      "purchase_order_id": "po-7",
+      "status": "In transit",
+      "event_date": "2026-03-11",
+      "note": "In transit logged for po-7."
+    },
+    {
+      "id": "delivery-7-11",
+      "purchase_order_id": "po-7",
+      "status": "Reached yard",
+      "event_date": "2026-03-12",
+      "note": "Reached yard logged for po-7."
+    },
+    {
+      "id": "delivery-7-12",
+      "purchase_order_id": "po-7",
+      "status": "Received",
+      "event_date": "2026-03-13",
+      "note": "Received logged for po-7."
+    },
+    {
+      "id": "delivery-8-1",
+      "purchase_order_id": "po-8",
+      "status": "RFQ sent",
+      "event_date": "2026-03-01",
+      "note": "RFQ sent logged for po-8."
+    },
+    {
+      "id": "delivery-8-2",
+      "purchase_order_id": "po-8",
+      "status": "Quote received",
+      "event_date": "2026-03-02",
+      "note": "Quote received logged for po-8."
+    },
+    {
+      "id": "delivery-8-3",
+      "purchase_order_id": "po-8",
+      "status": "Vendor selected",
+      "event_date": "2026-03-03",
+      "note": "Vendor selected logged for po-8."
+    },
+    {
+      "id": "delivery-8-4",
+      "purchase_order_id": "po-8",
+      "status": "PO issued",
+      "event_date": "2026-03-04",
+      "note": "PO issued logged for po-8."
+    },
+    {
+      "id": "delivery-8-5",
+      "purchase_order_id": "po-8",
+      "status": "Advance requested",
+      "event_date": "2026-03-05",
+      "note": "Advance requested logged for po-8."
+    },
+    {
+      "id": "delivery-8-6",
+      "purchase_order_id": "po-8",
+      "status": "Advance paid",
+      "event_date": "2026-03-06",
+      "note": "Advance paid logged for po-8."
+    },
+    {
+      "id": "delivery-8-7",
+      "purchase_order_id": "po-8",
+      "status": "Vendor confirmed",
+      "event_date": "2026-03-07",
+      "note": "Vendor confirmed logged for po-8."
+    },
+    {
+      "id": "delivery-8-8",
+      "purchase_order_id": "po-8",
+      "status": "Dispatch pending",
+      "event_date": "2026-03-08",
+      "note": "Dispatch pending logged for po-8."
+    },
+    {
+      "id": "delivery-8-9",
+      "purchase_order_id": "po-8",
+      "status": "Dispatched",
+      "event_date": "2026-03-09",
+      "note": "Dispatched logged for po-8."
+    },
+    {
+      "id": "delivery-8-10",
+      "purchase_order_id": "po-8",
+      "status": "In transit",
+      "event_date": "2026-03-10",
+      "note": "In transit logged for po-8."
+    },
+    {
+      "id": "delivery-8-11",
+      "purchase_order_id": "po-8",
+      "status": "Reached yard",
+      "event_date": "2026-03-11",
+      "note": "Reached yard logged for po-8."
+    },
+    {
+      "id": "delivery-9-1",
+      "purchase_order_id": "po-9",
+      "status": "RFQ sent",
+      "event_date": "2026-02-28",
+      "note": "RFQ sent logged for po-9."
+    },
+    {
+      "id": "delivery-9-2",
+      "purchase_order_id": "po-9",
+      "status": "Quote received",
+      "event_date": "2026-03-01",
+      "note": "Quote received logged for po-9."
+    },
+    {
+      "id": "delivery-9-3",
+      "purchase_order_id": "po-9",
+      "status": "Vendor selected",
+      "event_date": "2026-03-02",
+      "note": "Vendor selected logged for po-9."
+    },
+    {
+      "id": "delivery-9-4",
+      "purchase_order_id": "po-9",
+      "status": "PO issued",
+      "event_date": "2026-03-03",
+      "note": "PO issued logged for po-9."
+    },
+    {
+      "id": "delivery-9-5",
+      "purchase_order_id": "po-9",
+      "status": "Advance requested",
+      "event_date": "2026-03-04",
+      "note": "Advance requested logged for po-9."
+    },
+    {
+      "id": "delivery-9-6",
+      "purchase_order_id": "po-9",
+      "status": "Advance paid",
+      "event_date": "2026-03-05",
+      "note": "Advance paid logged for po-9."
+    },
+    {
+      "id": "delivery-9-7",
+      "purchase_order_id": "po-9",
+      "status": "Vendor confirmed",
+      "event_date": "2026-03-06",
+      "note": "Vendor confirmed logged for po-9."
+    },
+    {
+      "id": "delivery-9-8",
+      "purchase_order_id": "po-9",
+      "status": "Dispatch pending",
+      "event_date": "2026-03-07",
+      "note": "Dispatch pending logged for po-9."
+    },
+    {
+      "id": "delivery-9-9",
+      "purchase_order_id": "po-9",
+      "status": "Dispatched",
+      "event_date": "2026-03-08",
+      "note": "Dispatched logged for po-9."
+    },
+    {
+      "id": "delivery-9-10",
+      "purchase_order_id": "po-9",
+      "status": "In transit",
+      "event_date": "2026-03-09",
+      "note": "In transit logged for po-9."
+    },
+    {
+      "id": "delivery-10-1",
+      "purchase_order_id": "po-10",
+      "status": "RFQ sent",
+      "event_date": "2026-02-27",
+      "note": "RFQ sent logged for po-10."
+    },
+    {
+      "id": "delivery-10-2",
+      "purchase_order_id": "po-10",
+      "status": "Quote received",
+      "event_date": "2026-02-28",
+      "note": "Quote received logged for po-10."
+    },
+    {
+      "id": "delivery-10-3",
+      "purchase_order_id": "po-10",
+      "status": "Vendor selected",
+      "event_date": "2026-03-01",
+      "note": "Vendor selected logged for po-10."
+    },
+    {
+      "id": "delivery-10-4",
+      "purchase_order_id": "po-10",
+      "status": "PO issued",
+      "event_date": "2026-03-02",
+      "note": "PO issued logged for po-10."
+    },
+    {
+      "id": "delivery-10-5",
+      "purchase_order_id": "po-10",
+      "status": "Advance requested",
+      "event_date": "2026-03-03",
+      "note": "Advance requested logged for po-10."
+    },
+    {
+      "id": "delivery-10-6",
+      "purchase_order_id": "po-10",
+      "status": "Advance paid",
+      "event_date": "2026-03-04",
+      "note": "Advance paid logged for po-10."
+    },
+    {
+      "id": "delivery-10-7",
+      "purchase_order_id": "po-10",
+      "status": "Vendor confirmed",
+      "event_date": "2026-03-05",
+      "note": "Vendor confirmed logged for po-10."
+    },
+    {
+      "id": "delivery-10-8",
+      "purchase_order_id": "po-10",
+      "status": "Dispatch pending",
+      "event_date": "2026-03-06",
+      "note": "Dispatch pending logged for po-10."
+    },
+    {
+      "id": "delivery-10-9",
+      "purchase_order_id": "po-10",
+      "status": "Dispatched",
+      "event_date": "2026-03-07",
+      "note": "Dispatched logged for po-10."
+    },
+    {
+      "id": "delivery-10-10",
+      "purchase_order_id": "po-10",
+      "status": "In transit",
+      "event_date": "2026-03-08",
+      "note": "In transit logged for po-10."
+    },
+    {
+      "id": "delivery-10-11",
+      "purchase_order_id": "po-10",
+      "status": "Reached yard",
+      "event_date": "2026-03-09",
+      "note": "Reached yard logged for po-10."
+    },
+    {
+      "id": "delivery-10-12",
+      "purchase_order_id": "po-10",
+      "status": "Received",
+      "event_date": "2026-03-10",
+      "note": "Received logged for po-10."
+    },
+    {
+      "id": "delivery-11-1",
+      "purchase_order_id": "po-11",
+      "status": "RFQ sent",
+      "event_date": "2026-02-26",
+      "note": "RFQ sent logged for po-11."
+    },
+    {
+      "id": "delivery-11-2",
+      "purchase_order_id": "po-11",
+      "status": "Quote received",
+      "event_date": "2026-02-27",
+      "note": "Quote received logged for po-11."
+    },
+    {
+      "id": "delivery-11-3",
+      "purchase_order_id": "po-11",
+      "status": "Vendor selected",
+      "event_date": "2026-02-28",
+      "note": "Vendor selected logged for po-11."
+    },
+    {
+      "id": "delivery-11-4",
+      "purchase_order_id": "po-11",
+      "status": "PO issued",
+      "event_date": "2026-03-01",
+      "note": "PO issued logged for po-11."
+    },
+    {
+      "id": "delivery-11-5",
+      "purchase_order_id": "po-11",
+      "status": "Advance requested",
+      "event_date": "2026-03-02",
+      "note": "Advance requested logged for po-11."
+    },
+    {
+      "id": "delivery-11-6",
+      "purchase_order_id": "po-11",
+      "status": "Advance paid",
+      "event_date": "2026-03-03",
+      "note": "Advance paid logged for po-11."
+    },
+    {
+      "id": "delivery-11-7",
+      "purchase_order_id": "po-11",
+      "status": "Vendor confirmed",
+      "event_date": "2026-03-04",
+      "note": "Vendor confirmed logged for po-11."
+    },
+    {
+      "id": "delivery-11-8",
+      "purchase_order_id": "po-11",
+      "status": "Dispatch pending",
+      "event_date": "2026-03-05",
+      "note": "Dispatch pending logged for po-11."
+    },
+    {
+      "id": "delivery-11-9",
+      "purchase_order_id": "po-11",
+      "status": "Dispatched",
+      "event_date": "2026-03-06",
+      "note": "Dispatched logged for po-11."
+    },
+    {
+      "id": "delivery-11-10",
+      "purchase_order_id": "po-11",
+      "status": "In transit",
+      "event_date": "2026-03-07",
+      "note": "In transit logged for po-11."
+    },
+    {
+      "id": "delivery-12-1",
+      "purchase_order_id": "po-12",
+      "status": "RFQ sent",
+      "event_date": "2026-02-25",
+      "note": "RFQ sent logged for po-12."
+    },
+    {
+      "id": "delivery-12-2",
+      "purchase_order_id": "po-12",
+      "status": "Quote received",
+      "event_date": "2026-02-26",
+      "note": "Quote received logged for po-12."
+    },
+    {
+      "id": "delivery-12-3",
+      "purchase_order_id": "po-12",
+      "status": "Vendor selected",
+      "event_date": "2026-02-27",
+      "note": "Vendor selected logged for po-12."
+    },
+    {
+      "id": "delivery-12-4",
+      "purchase_order_id": "po-12",
+      "status": "PO issued",
+      "event_date": "2026-02-28",
+      "note": "PO issued logged for po-12."
+    },
+    {
+      "id": "delivery-12-5",
+      "purchase_order_id": "po-12",
+      "status": "Advance requested",
+      "event_date": "2026-03-01",
+      "note": "Advance requested logged for po-12."
+    },
+    {
+      "id": "delivery-12-6",
+      "purchase_order_id": "po-12",
+      "status": "Advance paid",
+      "event_date": "2026-03-02",
+      "note": "Advance paid logged for po-12."
+    },
+    {
+      "id": "delivery-12-7",
+      "purchase_order_id": "po-12",
+      "status": "Vendor confirmed",
+      "event_date": "2026-03-03",
+      "note": "Vendor confirmed logged for po-12."
+    },
+    {
+      "id": "delivery-12-8",
+      "purchase_order_id": "po-12",
+      "status": "Dispatch pending",
+      "event_date": "2026-03-04",
+      "note": "Dispatch pending logged for po-12."
+    },
+    {
+      "id": "delivery-12-9",
+      "purchase_order_id": "po-12",
+      "status": "Dispatched",
+      "event_date": "2026-03-05",
+      "note": "Dispatched logged for po-12."
+    },
+    {
+      "id": "delivery-12-10",
+      "purchase_order_id": "po-12",
+      "status": "In transit",
+      "event_date": "2026-03-06",
+      "note": "In transit logged for po-12."
+    },
+    {
+      "id": "delivery-13-1",
+      "purchase_order_id": "po-13",
+      "status": "RFQ sent",
+      "event_date": "2026-02-24",
+      "note": "RFQ sent logged for po-13."
+    },
+    {
+      "id": "delivery-13-2",
+      "purchase_order_id": "po-13",
+      "status": "Quote received",
+      "event_date": "2026-02-25",
+      "note": "Quote received logged for po-13."
+    },
+    {
+      "id": "delivery-13-3",
+      "purchase_order_id": "po-13",
+      "status": "Vendor selected",
+      "event_date": "2026-02-26",
+      "note": "Vendor selected logged for po-13."
+    },
+    {
+      "id": "delivery-13-4",
+      "purchase_order_id": "po-13",
+      "status": "PO issued",
+      "event_date": "2026-02-27",
+      "note": "PO issued logged for po-13."
+    },
+    {
+      "id": "delivery-13-5",
+      "purchase_order_id": "po-13",
+      "status": "Advance requested",
+      "event_date": "2026-02-28",
+      "note": "Advance requested logged for po-13."
+    },
+    {
+      "id": "delivery-13-6",
+      "purchase_order_id": "po-13",
+      "status": "Advance paid",
+      "event_date": "2026-03-01",
+      "note": "Advance paid logged for po-13."
+    },
+    {
+      "id": "delivery-13-7",
+      "purchase_order_id": "po-13",
+      "status": "Vendor confirmed",
+      "event_date": "2026-03-02",
+      "note": "Vendor confirmed logged for po-13."
+    },
+    {
+      "id": "delivery-13-8",
+      "purchase_order_id": "po-13",
+      "status": "Dispatch pending",
+      "event_date": "2026-03-03",
+      "note": "Dispatch pending logged for po-13."
+    },
+    {
+      "id": "delivery-13-9",
+      "purchase_order_id": "po-13",
+      "status": "Dispatched",
+      "event_date": "2026-03-04",
+      "note": "Dispatched logged for po-13."
+    },
+    {
+      "id": "delivery-13-10",
+      "purchase_order_id": "po-13",
+      "status": "In transit",
+      "event_date": "2026-03-05",
+      "note": "In transit logged for po-13."
+    },
+    {
+      "id": "delivery-13-11",
+      "purchase_order_id": "po-13",
+      "status": "Reached yard",
+      "event_date": "2026-03-06",
+      "note": "Reached yard logged for po-13."
+    },
+    {
+      "id": "delivery-14-1",
+      "purchase_order_id": "po-14",
+      "status": "RFQ sent",
+      "event_date": "2026-02-23",
+      "note": "RFQ sent logged for po-14."
+    },
+    {
+      "id": "delivery-14-2",
+      "purchase_order_id": "po-14",
+      "status": "Quote received",
+      "event_date": "2026-02-24",
+      "note": "Quote received logged for po-14."
+    },
+    {
+      "id": "delivery-14-3",
+      "purchase_order_id": "po-14",
+      "status": "Vendor selected",
+      "event_date": "2026-02-25",
+      "note": "Vendor selected logged for po-14."
+    },
+    {
+      "id": "delivery-14-4",
+      "purchase_order_id": "po-14",
+      "status": "PO issued",
+      "event_date": "2026-02-26",
+      "note": "PO issued logged for po-14."
+    },
+    {
+      "id": "delivery-14-5",
+      "purchase_order_id": "po-14",
+      "status": "Advance requested",
+      "event_date": "2026-02-27",
+      "note": "Advance requested logged for po-14."
+    },
+    {
+      "id": "delivery-14-6",
+      "purchase_order_id": "po-14",
+      "status": "Advance paid",
+      "event_date": "2026-02-28",
+      "note": "Advance paid logged for po-14."
+    },
+    {
+      "id": "delivery-14-7",
+      "purchase_order_id": "po-14",
+      "status": "Vendor confirmed",
+      "event_date": "2026-03-01",
+      "note": "Vendor confirmed logged for po-14."
+    },
+    {
+      "id": "delivery-14-8",
+      "purchase_order_id": "po-14",
+      "status": "Dispatch pending",
+      "event_date": "2026-03-02",
+      "note": "Dispatch pending logged for po-14."
+    },
+    {
+      "id": "delivery-15-1",
+      "purchase_order_id": "po-15",
+      "status": "RFQ sent",
+      "event_date": "2026-02-22",
+      "note": "RFQ sent logged for po-15."
+    },
+    {
+      "id": "delivery-15-2",
+      "purchase_order_id": "po-15",
+      "status": "Quote received",
+      "event_date": "2026-02-23",
+      "note": "Quote received logged for po-15."
+    },
+    {
+      "id": "delivery-15-3",
+      "purchase_order_id": "po-15",
+      "status": "Vendor selected",
+      "event_date": "2026-02-24",
+      "note": "Vendor selected logged for po-15."
+    },
+    {
+      "id": "delivery-15-4",
+      "purchase_order_id": "po-15",
+      "status": "PO issued",
+      "event_date": "2026-02-25",
+      "note": "PO issued logged for po-15."
+    },
+    {
+      "id": "delivery-15-5",
+      "purchase_order_id": "po-15",
+      "status": "Advance requested",
+      "event_date": "2026-02-26",
+      "note": "Advance requested logged for po-15."
+    },
+    {
+      "id": "delivery-15-6",
+      "purchase_order_id": "po-15",
+      "status": "Advance paid",
+      "event_date": "2026-02-27",
+      "note": "Advance paid logged for po-15."
+    },
+    {
+      "id": "delivery-15-7",
+      "purchase_order_id": "po-15",
+      "status": "Vendor confirmed",
+      "event_date": "2026-02-28",
+      "note": "Vendor confirmed logged for po-15."
+    },
+    {
+      "id": "delivery-15-8",
+      "purchase_order_id": "po-15",
+      "status": "Dispatch pending",
+      "event_date": "2026-03-01",
+      "note": "Dispatch pending logged for po-15."
+    },
+    {
+      "id": "delivery-15-9",
+      "purchase_order_id": "po-15",
+      "status": "Dispatched",
+      "event_date": "2026-03-02",
+      "note": "Dispatched logged for po-15."
+    },
+    {
+      "id": "delivery-15-10",
+      "purchase_order_id": "po-15",
+      "status": "In transit",
+      "event_date": "2026-03-03",
+      "note": "In transit logged for po-15."
+    },
+    {
+      "id": "delivery-15-11",
+      "purchase_order_id": "po-15",
+      "status": "Reached yard",
+      "event_date": "2026-03-04",
+      "note": "Reached yard logged for po-15."
+    },
+    {
+      "id": "delivery-15-12",
+      "purchase_order_id": "po-15",
+      "status": "Received",
+      "event_date": "2026-03-05",
+      "note": "Received logged for po-15."
+    },
+    {
+      "id": "delivery-15-13",
+      "purchase_order_id": "po-15",
+      "status": "Under QC",
+      "event_date": "2026-03-06",
+      "note": "Under QC logged for po-15."
+    }
+  ],
+  "receipts": [
+    {
+      "id": "receipt-1",
+      "purchase_order_id": "po-1",
+      "received_quantity": 55,
+      "receipt_date": "2026-03-18",
+      "challan_image_path": "receipt-images/receipt-1-challan.jpg",
+      "invoice_image_path": "receipt-images/receipt-1-invoice.jpg",
+      "photo_paths": [
+        "receipt-images/receipt-1-dock.jpg",
+        "receipt-images/receipt-1-store.jpg"
+      ]
+    },
+    {
+      "id": "receipt-2",
+      "purchase_order_id": "po-2",
+      "received_quantity": 10,
+      "receipt_date": "2026-03-17",
+      "challan_image_path": "receipt-images/receipt-2-challan.jpg",
+      "invoice_image_path": "receipt-images/receipt-2-invoice.jpg",
+      "photo_paths": [
+        "receipt-images/receipt-2-dock.jpg",
+        "receipt-images/receipt-2-store.jpg"
+      ]
+    },
+    {
+      "id": "receipt-3",
+      "purchase_order_id": "po-3",
+      "received_quantity": 47,
+      "receipt_date": "2026-03-16",
+      "challan_image_path": "receipt-images/receipt-3-challan.jpg",
+      "invoice_image_path": "receipt-images/receipt-3-invoice.jpg",
+      "photo_paths": [
+        "receipt-images/receipt-3-dock.jpg",
+        "receipt-images/receipt-3-store.jpg"
+      ]
+    },
+    {
+      "id": "receipt-4",
+      "purchase_order_id": "po-4",
+      "received_quantity": 26,
+      "receipt_date": "2026-03-15",
+      "challan_image_path": "receipt-images/receipt-4-challan.jpg",
+      "invoice_image_path": "receipt-images/receipt-4-invoice.jpg",
+      "photo_paths": [
+        "receipt-images/receipt-4-dock.jpg",
+        "receipt-images/receipt-4-store.jpg"
+      ]
+    },
+    {
+      "id": "receipt-5",
+      "purchase_order_id": "po-5",
+      "received_quantity": 48,
+      "receipt_date": "2026-03-14",
+      "challan_image_path": "receipt-images/receipt-5-challan.jpg",
+      "invoice_image_path": "receipt-images/receipt-5-invoice.jpg",
+      "photo_paths": [
+        "receipt-images/receipt-5-dock.jpg",
+        "receipt-images/receipt-5-store.jpg"
+      ]
+    },
+    {
+      "id": "receipt-6",
+      "purchase_order_id": "po-6",
+      "received_quantity": 56,
+      "receipt_date": "2026-03-13",
+      "challan_image_path": "receipt-images/receipt-6-challan.jpg",
+      "invoice_image_path": "receipt-images/receipt-6-invoice.jpg",
+      "photo_paths": [
+        "receipt-images/receipt-6-dock.jpg",
+        "receipt-images/receipt-6-store.jpg"
+      ]
+    },
+    {
+      "id": "receipt-7",
+      "purchase_order_id": "po-7",
+      "received_quantity": 6,
+      "receipt_date": "2026-03-12",
+      "challan_image_path": "receipt-images/receipt-7-challan.jpg",
+      "invoice_image_path": "receipt-images/receipt-7-invoice.jpg",
+      "photo_paths": [
+        "receipt-images/receipt-7-dock.jpg",
+        "receipt-images/receipt-7-store.jpg"
+      ]
+    },
+    {
+      "id": "receipt-8",
+      "purchase_order_id": "po-8",
+      "received_quantity": 35,
+      "receipt_date": "2026-03-11",
+      "challan_image_path": "receipt-images/receipt-8-challan.jpg",
+      "invoice_image_path": "receipt-images/receipt-8-invoice.jpg",
+      "photo_paths": [
+        "receipt-images/receipt-8-dock.jpg",
+        "receipt-images/receipt-8-store.jpg"
+      ]
+    },
+    {
+      "id": "receipt-9",
+      "purchase_order_id": "po-9",
+      "received_quantity": 34,
+      "receipt_date": "2026-03-10",
+      "challan_image_path": "receipt-images/receipt-9-challan.jpg",
+      "invoice_image_path": "receipt-images/receipt-9-invoice.jpg",
+      "photo_paths": [
+        "receipt-images/receipt-9-dock.jpg",
+        "receipt-images/receipt-9-store.jpg"
+      ]
+    },
+    {
+      "id": "receipt-10",
+      "purchase_order_id": "po-10",
+      "received_quantity": 41,
+      "receipt_date": "2026-03-09",
+      "challan_image_path": "receipt-images/receipt-10-challan.jpg",
+      "invoice_image_path": "receipt-images/receipt-10-invoice.jpg",
+      "photo_paths": [
+        "receipt-images/receipt-10-dock.jpg",
+        "receipt-images/receipt-10-store.jpg"
+      ]
+    }
+  ],
+  "qc_records": [
+    {
+      "id": "qc-1",
+      "receipt_id": "receipt-1",
+      "status": "passed",
+      "inspector_id": "user-galvin",
+      "accepted_quantity": 13,
+      "rejected_quantity": 10,
+      "remarks": "QC passed after dimensional and visual checks."
+    },
+    {
+      "id": "qc-2",
+      "receipt_id": "receipt-2",
+      "status": "partial",
+      "inspector_id": "user-galvin",
+      "accepted_quantity": 21,
+      "rejected_quantity": 8,
+      "remarks": "QC partial after dimensional and visual checks."
+    },
+    {
+      "id": "qc-3",
+      "receipt_id": "receipt-3",
+      "status": "failed",
+      "inspector_id": "user-galvin",
+      "accepted_quantity": 43,
+      "rejected_quantity": 9,
+      "remarks": "QC failed after dimensional and visual checks."
+    },
+    {
+      "id": "qc-4",
+      "receipt_id": "receipt-4",
+      "status": "passed",
+      "inspector_id": "user-galvin",
+      "accepted_quantity": 8,
+      "rejected_quantity": 3,
+      "remarks": "QC passed after dimensional and visual checks."
+    },
+    {
+      "id": "qc-5",
+      "receipt_id": "receipt-5",
+      "status": "partial",
+      "inspector_id": "user-galvin",
+      "accepted_quantity": 22,
+      "rejected_quantity": 3,
+      "remarks": "QC partial after dimensional and visual checks."
+    },
+    {
+      "id": "qc-6",
+      "receipt_id": "receipt-6",
+      "status": "failed",
+      "inspector_id": "user-galvin",
+      "accepted_quantity": 15,
+      "rejected_quantity": 2,
+      "remarks": "QC failed after dimensional and visual checks."
+    },
+    {
+      "id": "qc-7",
+      "receipt_id": "receipt-7",
+      "status": "passed",
+      "inspector_id": "user-galvin",
+      "accepted_quantity": 5,
+      "rejected_quantity": 3,
+      "remarks": "QC passed after dimensional and visual checks."
+    },
+    {
+      "id": "qc-8",
+      "receipt_id": "receipt-8",
+      "status": "partial",
+      "inspector_id": "user-galvin",
+      "accepted_quantity": 42,
+      "rejected_quantity": 1,
+      "remarks": "QC partial after dimensional and visual checks."
+    },
+    {
+      "id": "qc-9",
+      "receipt_id": "receipt-9",
+      "status": "failed",
+      "inspector_id": "user-galvin",
+      "accepted_quantity": 29,
+      "rejected_quantity": 10,
+      "remarks": "QC failed after dimensional and visual checks."
+    },
+    {
+      "id": "qc-10",
+      "receipt_id": "receipt-10",
+      "status": "passed",
+      "inspector_id": "user-galvin",
+      "accepted_quantity": 15,
+      "rejected_quantity": 6,
+      "remarks": "QC passed after dimensional and visual checks."
+    }
+  ],
+  "inventory_items": [
+    {
+      "id": "inventory-1",
+      "pin": "PIN-HYD-2026-0001",
+      "item_id": "item-1",
+      "category_id": "cat-consumable",
+      "location_id": "loc-sr1",
+      "status": "reserved",
+      "quantity": 33,
+      "linked_requirement_id": "req-1",
+      "linked_po_id": "po-1",
+      "linked_receipt_id": "receipt-1",
+      "linked_qc_id": "qc-1",
+      "linked_phase_id": "phase-2",
+      "vendor_id": "vendor-1",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-18T00:00:00"
+    },
+    {
+      "id": "inventory-2",
+      "pin": "PIN-HYD-2026-0002",
+      "item_id": "item-2",
+      "category_id": "cat-fixed",
+      "location_id": "loc-sr1",
+      "status": "reserved",
+      "quantity": 8,
+      "linked_requirement_id": "req-2",
+      "linked_po_id": "po-2",
+      "linked_receipt_id": "receipt-2",
+      "linked_qc_id": "qc-2",
+      "linked_phase_id": "phase-2",
+      "vendor_id": "vendor-8",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-17T00:00:00"
+    },
+    {
+      "id": "inventory-3",
+      "pin": "PIN-HYD-2026-0003",
+      "item_id": "item-3",
+      "category_id": "cat-semi-fixed",
+      "location_id": "loc-sr2",
+      "status": "reserved",
+      "quantity": 5,
+      "linked_requirement_id": "req-3",
+      "linked_po_id": "po-3",
+      "linked_receipt_id": "receipt-3",
+      "linked_qc_id": "qc-3",
+      "linked_phase_id": "phase-1",
+      "vendor_id": "vendor-8",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-16T00:00:00"
+    },
+    {
+      "id": "inventory-4",
+      "pin": "PIN-HYD-2026-0004",
+      "item_id": "item-4",
+      "category_id": "cat-fixed",
+      "location_id": "loc-sr1",
+      "status": "issued",
+      "quantity": 10,
+      "linked_requirement_id": "req-4",
+      "linked_po_id": "po-4",
+      "linked_receipt_id": "receipt-4",
+      "linked_qc_id": "qc-4",
+      "linked_phase_id": "phase-4",
+      "vendor_id": "vendor-7",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-15T00:00:00"
+    },
+    {
+      "id": "inventory-5",
+      "pin": "PIN-HYD-2026-0005",
+      "item_id": "item-5",
+      "category_id": "cat-consumable",
+      "location_id": "loc-sr1",
+      "status": "reserved",
+      "quantity": 37,
+      "linked_requirement_id": "req-5",
+      "linked_po_id": "po-5",
+      "linked_receipt_id": "receipt-5",
+      "linked_qc_id": "qc-5",
+      "linked_phase_id": "phase-6",
+      "vendor_id": "vendor-8",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-14T00:00:00"
+    },
+    {
+      "id": "inventory-6",
+      "pin": "PIN-HYD-2026-0006",
+      "item_id": "item-6",
+      "category_id": "cat-fixed",
+      "location_id": "loc-sr1",
+      "status": "reserved",
+      "quantity": 30,
+      "linked_requirement_id": "req-6",
+      "linked_po_id": "po-6",
+      "linked_receipt_id": "receipt-6",
+      "linked_qc_id": "qc-6",
+      "linked_phase_id": "phase-6",
+      "vendor_id": "vendor-5",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-13T00:00:00"
+    },
+    {
+      "id": "inventory-7",
+      "pin": "PIN-HYD-2026-0007",
+      "item_id": "item-7",
+      "category_id": "cat-consumable",
+      "location_id": "loc-sr1",
+      "status": "reserved",
+      "quantity": 35,
+      "linked_requirement_id": "req-7",
+      "linked_po_id": "po-7",
+      "linked_receipt_id": "receipt-7",
+      "linked_qc_id": "qc-7",
+      "linked_phase_id": "phase-3",
+      "vendor_id": "vendor-8",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-12T00:00:00"
+    },
+    {
+      "id": "inventory-8",
+      "pin": "PIN-HYD-2026-0008",
+      "item_id": "item-8",
+      "category_id": "cat-fixed",
+      "location_id": "loc-sr2",
+      "status": "issued",
+      "quantity": 6,
+      "linked_requirement_id": "req-8",
+      "linked_po_id": "po-8",
+      "linked_receipt_id": "receipt-8",
+      "linked_qc_id": "qc-8",
+      "linked_phase_id": "phase-2",
+      "vendor_id": "vendor-5",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-11T00:00:00"
+    },
+    {
+      "id": "inventory-9",
+      "pin": "PIN-HYD-2026-0009",
+      "item_id": "item-9",
+      "category_id": "cat-fixed",
+      "location_id": "loc-sr1",
+      "status": "available",
+      "quantity": 23,
+      "linked_requirement_id": "req-9",
+      "linked_po_id": "po-9",
+      "linked_receipt_id": "receipt-9",
+      "linked_qc_id": "qc-9",
+      "linked_phase_id": "phase-2",
+      "vendor_id": "vendor-3",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-10T00:00:00"
+    },
+    {
+      "id": "inventory-10",
+      "pin": "PIN-HYD-2026-0010",
+      "item_id": "item-10",
+      "category_id": "cat-consumable",
+      "location_id": "loc-sr1",
+      "status": "reserved",
+      "quantity": 16,
+      "linked_requirement_id": "req-10",
+      "linked_po_id": "po-10",
+      "linked_receipt_id": "receipt-10",
+      "linked_qc_id": "qc-10",
+      "linked_phase_id": "phase-6",
+      "vendor_id": "vendor-4",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-09T00:00:00"
+    },
+    {
+      "id": "inventory-11",
+      "pin": "PIN-HYD-2026-0011",
+      "item_id": "item-11",
+      "category_id": "cat-consumable",
+      "location_id": "loc-sr1",
+      "status": "recovered",
+      "quantity": 6,
+      "linked_requirement_id": "req-11",
+      "linked_po_id": "po-11",
+      "linked_receipt_id": "receipt-1",
+      "linked_qc_id": "qc-1",
+      "linked_phase_id": "phase-3",
+      "vendor_id": "vendor-8",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-08T00:00:00"
+    },
+    {
+      "id": "inventory-12",
+      "pin": "PIN-HYD-2026-0012",
+      "item_id": "item-12",
+      "category_id": "cat-fixed",
+      "location_id": "loc-warehouse",
+      "status": "reserved",
+      "quantity": 28,
+      "linked_requirement_id": "req-12",
+      "linked_po_id": "po-12",
+      "linked_receipt_id": "receipt-2",
+      "linked_qc_id": "qc-2",
+      "linked_phase_id": "phase-4",
+      "vendor_id": "vendor-7",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-07T00:00:00"
+    },
+    {
+      "id": "inventory-13",
+      "pin": "PIN-HYD-2026-0013",
+      "item_id": "item-13",
+      "category_id": "cat-semi-fixed",
+      "location_id": "loc-sr2",
+      "status": "available",
+      "quantity": 39,
+      "linked_requirement_id": "req-13",
+      "linked_po_id": "po-13",
+      "linked_receipt_id": "receipt-3",
+      "linked_qc_id": "qc-3",
+      "linked_phase_id": "phase-5",
+      "vendor_id": "vendor-7",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-06T00:00:00"
+    },
+    {
+      "id": "inventory-14",
+      "pin": "PIN-HYD-2026-0014",
+      "item_id": "item-14",
+      "category_id": "cat-fixed",
+      "location_id": "loc-warehouse",
+      "status": "issued",
+      "quantity": 32,
+      "linked_requirement_id": "req-14",
+      "linked_po_id": "po-14",
+      "linked_receipt_id": "receipt-4",
+      "linked_qc_id": "qc-4",
+      "linked_phase_id": "phase-3",
+      "vendor_id": "vendor-7",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-05T00:00:00"
+    },
+    {
+      "id": "inventory-15",
+      "pin": "PIN-HYD-2026-0015",
+      "item_id": "item-15",
+      "category_id": "cat-consumable",
+      "location_id": "loc-sr2",
+      "status": "reserved",
+      "quantity": 28,
+      "linked_requirement_id": "req-15",
+      "linked_po_id": "po-15",
+      "linked_receipt_id": "receipt-5",
+      "linked_qc_id": "qc-5",
+      "linked_phase_id": "phase-4",
+      "vendor_id": "vendor-4",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-04T00:00:00"
+    },
+    {
+      "id": "inventory-16",
+      "pin": "PIN-HYD-2026-0016",
+      "item_id": "item-16",
+      "category_id": "cat-fixed",
+      "location_id": "loc-sr1",
+      "status": "recovered",
+      "quantity": 19,
+      "linked_requirement_id": "req-16",
+      "linked_po_id": null,
+      "linked_receipt_id": null,
+      "linked_qc_id": null,
+      "linked_phase_id": "phase-1",
+      "vendor_id": "vendor-7",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-03T00:00:00"
+    },
+    {
+      "id": "inventory-17",
+      "pin": "PIN-HYD-2026-0017",
+      "item_id": "item-17",
+      "category_id": "cat-consumable",
+      "location_id": "loc-sr2",
+      "status": "recovered",
+      "quantity": 23,
+      "linked_requirement_id": "req-17",
+      "linked_po_id": null,
+      "linked_receipt_id": null,
+      "linked_qc_id": null,
+      "linked_phase_id": "phase-6",
+      "vendor_id": "vendor-3",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-02T00:00:00"
+    },
+    {
+      "id": "inventory-18",
+      "pin": "PIN-HYD-2026-0018",
+      "item_id": "item-18",
+      "category_id": "cat-fixed",
+      "location_id": "loc-warehouse",
+      "status": "available",
+      "quantity": 31,
+      "linked_requirement_id": "req-18",
+      "linked_po_id": null,
+      "linked_receipt_id": null,
+      "linked_qc_id": null,
+      "linked_phase_id": "phase-4",
+      "vendor_id": "vendor-1",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-03-01T00:00:00"
+    },
+    {
+      "id": "inventory-19",
+      "pin": "PIN-HYD-2026-0019",
+      "item_id": "item-19",
+      "category_id": "cat-fixed",
+      "location_id": "loc-sr2",
+      "status": "recovered",
+      "quantity": 7,
+      "linked_requirement_id": "req-19",
+      "linked_po_id": null,
+      "linked_receipt_id": null,
+      "linked_qc_id": null,
+      "linked_phase_id": "phase-2",
+      "vendor_id": "vendor-8",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-02-28T00:00:00"
+    },
+    {
+      "id": "inventory-20",
+      "pin": "PIN-HYD-2026-0020",
+      "item_id": "item-20",
+      "category_id": "cat-consumable",
+      "location_id": "loc-warehouse",
+      "status": "issued",
+      "quantity": 13,
+      "linked_requirement_id": "req-20",
+      "linked_po_id": null,
+      "linked_receipt_id": null,
+      "linked_qc_id": null,
+      "linked_phase_id": "phase-4",
+      "vendor_id": "vendor-6",
+      "parent_pin": null,
+      "derived_pin_type": null,
+      "created_at": "2026-02-27T00:00:00"
+    },
+    {
+      "id": "inventory-recovery-1",
+      "pin": "PIN-HYD-2026-R001",
+      "item_id": "item-1",
+      "category_id": "cat-consumable",
+      "location_id": "loc-warehouse",
+      "status": "recovered",
+      "quantity": 1,
+      "linked_requirement_id": "req-1",
+      "linked_po_id": "po-1",
+      "linked_receipt_id": "receipt-1",
+      "linked_qc_id": "qc-1",
+      "linked_phase_id": "phase-4",
+      "vendor_id": "vendor-1",
+      "parent_pin": "PIN-HYD-2026-0001",
+      "derived_pin_type": "N",
+      "created_at": "2026-03-18T00:00:00"
+    },
+    {
+      "id": "inventory-recovery-2",
+      "pin": "PIN-HYD-2026-R002",
+      "item_id": "item-2",
+      "category_id": "cat-fixed",
+      "location_id": "loc-warehouse",
+      "status": "recovered",
+      "quantity": 1,
+      "linked_requirement_id": "req-2",
+      "linked_po_id": "po-2",
+      "linked_receipt_id": "receipt-2",
+      "linked_qc_id": "qc-2",
+      "linked_phase_id": "phase-3",
+      "vendor_id": "vendor-8",
+      "parent_pin": "PIN-HYD-2026-0002",
+      "derived_pin_type": "LF",
+      "created_at": "2026-03-17T00:00:00"
+    },
+    {
+      "id": "inventory-recovery-3",
+      "pin": "PIN-HYD-2026-R003",
+      "item_id": "item-3",
+      "category_id": "cat-semi-fixed",
+      "location_id": "loc-warehouse",
+      "status": "recovered",
+      "quantity": 1,
+      "linked_requirement_id": "req-3",
+      "linked_po_id": "po-3",
+      "linked_receipt_id": "receipt-3",
+      "linked_qc_id": "qc-3",
+      "linked_phase_id": "phase-3",
+      "vendor_id": "vendor-8",
+      "parent_pin": "PIN-HYD-2026-0003",
+      "derived_pin_type": "S",
+      "created_at": "2026-03-16T00:00:00"
+    },
+    {
+      "id": "inventory-recovery-4",
+      "pin": "PIN-HYD-2026-R004",
+      "item_id": "item-4",
+      "category_id": "cat-fixed",
+      "location_id": "loc-sr1",
+      "status": "recovered",
+      "quantity": 2,
+      "linked_requirement_id": "req-4",
+      "linked_po_id": "po-4",
+      "linked_receipt_id": "receipt-4",
+      "linked_qc_id": "qc-4",
+      "linked_phase_id": "phase-3",
+      "vendor_id": "vendor-7",
+      "parent_pin": "PIN-HYD-2026-0004",
+      "derived_pin_type": "N",
+      "created_at": "2026-03-15T00:00:00"
+    },
+    {
+      "id": "inventory-recovery-5",
+      "pin": "PIN-HYD-2026-R005",
+      "item_id": "item-5",
+      "category_id": "cat-consumable",
+      "location_id": "loc-sr2",
+      "status": "recovered",
+      "quantity": 1,
+      "linked_requirement_id": "req-5",
+      "linked_po_id": "po-5",
+      "linked_receipt_id": "receipt-5",
+      "linked_qc_id": "qc-5",
+      "linked_phase_id": "phase-4",
+      "vendor_id": "vendor-8",
+      "parent_pin": "PIN-HYD-2026-0005",
+      "derived_pin_type": "LF",
+      "created_at": "2026-03-14T00:00:00"
+    },
+    {
+      "id": "inventory-recovery-6",
+      "pin": "PIN-HYD-2026-R006",
+      "item_id": "item-6",
+      "category_id": "cat-fixed",
+      "location_id": "loc-warehouse",
+      "status": "recovered",
+      "quantity": 1,
+      "linked_requirement_id": "req-6",
+      "linked_po_id": "po-6",
+      "linked_receipt_id": "receipt-6",
+      "linked_qc_id": "qc-6",
+      "linked_phase_id": "phase-6",
+      "vendor_id": "vendor-5",
+      "parent_pin": "PIN-HYD-2026-0006",
+      "derived_pin_type": "S",
+      "created_at": "2026-03-13T00:00:00"
+    }
+  ],
+  "inventory_movements": [
+    {
+      "id": "movement-1",
+      "inventory_item_id": "inventory-1",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr1",
+      "quantity": 33,
+      "movement_date": "2026-03-18",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-2",
+      "inventory_item_id": "inventory-2",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr1",
+      "quantity": 8,
+      "movement_date": "2026-03-17",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-3",
+      "inventory_item_id": "inventory-3",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr2",
+      "quantity": 5,
+      "movement_date": "2026-03-16",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-4",
+      "inventory_item_id": "inventory-4",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr1",
+      "quantity": 10,
+      "movement_date": "2026-03-15",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-5",
+      "inventory_item_id": "inventory-5",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr1",
+      "quantity": 37,
+      "movement_date": "2026-03-14",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-6",
+      "inventory_item_id": "inventory-6",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr1",
+      "quantity": 30,
+      "movement_date": "2026-03-13",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-7",
+      "inventory_item_id": "inventory-7",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr1",
+      "quantity": 35,
+      "movement_date": "2026-03-12",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-8",
+      "inventory_item_id": "inventory-8",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr2",
+      "quantity": 6,
+      "movement_date": "2026-03-11",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-9",
+      "inventory_item_id": "inventory-9",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr1",
+      "quantity": 23,
+      "movement_date": "2026-03-10",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-10",
+      "inventory_item_id": "inventory-10",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr1",
+      "quantity": 16,
+      "movement_date": "2026-03-09",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-11",
+      "inventory_item_id": "inventory-11",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr1",
+      "quantity": 6,
+      "movement_date": "2026-03-08",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-12",
+      "inventory_item_id": "inventory-12",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-warehouse",
+      "quantity": 28,
+      "movement_date": "2026-03-07",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-13",
+      "inventory_item_id": "inventory-13",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr2",
+      "quantity": 39,
+      "movement_date": "2026-03-06",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-14",
+      "inventory_item_id": "inventory-14",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-warehouse",
+      "quantity": 32,
+      "movement_date": "2026-03-05",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-15",
+      "inventory_item_id": "inventory-15",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr2",
+      "quantity": 28,
+      "movement_date": "2026-03-04",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-16",
+      "inventory_item_id": "inventory-16",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr1",
+      "quantity": 19,
+      "movement_date": "2026-03-03",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-17",
+      "inventory_item_id": "inventory-17",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr2",
+      "quantity": 23,
+      "movement_date": "2026-03-02",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-18",
+      "inventory_item_id": "inventory-18",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-warehouse",
+      "quantity": 31,
+      "movement_date": "2026-03-01",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-19",
+      "inventory_item_id": "inventory-19",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-sr2",
+      "quantity": 7,
+      "movement_date": "2026-02-28",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-20",
+      "inventory_item_id": "inventory-20",
+      "movement_type": "intake",
+      "from_location_id": null,
+      "to_location_id": "loc-warehouse",
+      "quantity": 13,
+      "movement_date": "2026-02-27",
+      "note": "Initial intake into material control stock."
+    },
+    {
+      "id": "movement-issue-1",
+      "inventory_item_id": "inventory-1",
+      "movement_type": "issue",
+      "from_location_id": "loc-sr1",
+      "to_location_id": null,
+      "quantity": 7,
+      "movement_date": "2026-03-18",
+      "note": "Issued to shipbuilder team."
+    },
+    {
+      "id": "movement-issue-2",
+      "inventory_item_id": "inventory-2",
+      "movement_type": "issue",
+      "from_location_id": "loc-sr1",
+      "to_location_id": null,
+      "quantity": 3,
+      "movement_date": "2026-03-17",
+      "note": "Issued to shipbuilder team."
+    },
+    {
+      "id": "movement-issue-3",
+      "inventory_item_id": "inventory-3",
+      "movement_type": "issue",
+      "from_location_id": "loc-sr2",
+      "to_location_id": null,
+      "quantity": 2,
+      "movement_date": "2026-03-16",
+      "note": "Issued to shipbuilder team."
+    },
+    {
+      "id": "movement-issue-4",
+      "inventory_item_id": "inventory-4",
+      "movement_type": "issue",
+      "from_location_id": "loc-sr1",
+      "to_location_id": null,
+      "quantity": 4,
+      "movement_date": "2026-03-15",
+      "note": "Issued to shipbuilder team."
+    },
+    {
+      "id": "movement-issue-5",
+      "inventory_item_id": "inventory-5",
+      "movement_type": "issue",
+      "from_location_id": "loc-sr1",
+      "to_location_id": null,
+      "quantity": 3,
+      "movement_date": "2026-03-14",
+      "note": "Issued to shipbuilder team."
+    },
+    {
+      "id": "movement-issue-6",
+      "inventory_item_id": "inventory-6",
+      "movement_type": "issue",
+      "from_location_id": "loc-sr1",
+      "to_location_id": null,
+      "quantity": 1,
+      "movement_date": "2026-03-13",
+      "note": "Issued to shipbuilder team."
+    },
+    {
+      "id": "movement-issue-7",
+      "inventory_item_id": "inventory-7",
+      "movement_type": "issue",
+      "from_location_id": "loc-sr1",
+      "to_location_id": null,
+      "quantity": 2,
+      "movement_date": "2026-03-12",
+      "note": "Issued to shipbuilder team."
+    },
+    {
+      "id": "movement-issue-8",
+      "inventory_item_id": "inventory-8",
+      "movement_type": "issue",
+      "from_location_id": "loc-sr2",
+      "to_location_id": null,
+      "quantity": 1,
+      "movement_date": "2026-03-11",
+      "note": "Issued to shipbuilder team."
+    }
+  ],
+  "issue_records": [
+    {
+      "id": "issue-1",
+      "inventory_item_id": "inventory-1",
+      "phase_id": "phase-4",
+      "quantity": 7,
+      "issue_date": "2026-03-18",
+      "issued_by": "user-biplob",
+      "received_by": "user-sawant",
+      "remarks": "Issued against active workfront demand."
+    },
+    {
+      "id": "issue-2",
+      "inventory_item_id": "inventory-2",
+      "phase_id": "phase-3",
+      "quantity": 3,
+      "issue_date": "2026-03-17",
+      "issued_by": "user-biplob",
+      "received_by": "user-sawant",
+      "remarks": "Issued against active workfront demand."
+    },
+    {
+      "id": "issue-3",
+      "inventory_item_id": "inventory-3",
+      "phase_id": "phase-3",
+      "quantity": 2,
+      "issue_date": "2026-03-16",
+      "issued_by": "user-biplob",
+      "received_by": "user-sawant",
+      "remarks": "Issued against active workfront demand."
+    },
+    {
+      "id": "issue-4",
+      "inventory_item_id": "inventory-4",
+      "phase_id": "phase-3",
+      "quantity": 4,
+      "issue_date": "2026-03-15",
+      "issued_by": "user-biplob",
+      "received_by": "user-sawant",
+      "remarks": "Issued against active workfront demand."
+    },
+    {
+      "id": "issue-5",
+      "inventory_item_id": "inventory-5",
+      "phase_id": "phase-4",
+      "quantity": 3,
+      "issue_date": "2026-03-14",
+      "issued_by": "user-biplob",
+      "received_by": "user-sawant",
+      "remarks": "Issued against active workfront demand."
+    },
+    {
+      "id": "issue-6",
+      "inventory_item_id": "inventory-6",
+      "phase_id": "phase-6",
+      "quantity": 1,
+      "issue_date": "2026-03-13",
+      "issued_by": "user-biplob",
+      "received_by": "user-sawant",
+      "remarks": "Issued against active workfront demand."
+    },
+    {
+      "id": "issue-7",
+      "inventory_item_id": "inventory-7",
+      "phase_id": "phase-3",
+      "quantity": 2,
+      "issue_date": "2026-03-12",
+      "issued_by": "user-biplob",
+      "received_by": "user-sawant",
+      "remarks": "Issued against active workfront demand."
+    },
+    {
+      "id": "issue-8",
+      "inventory_item_id": "inventory-8",
+      "phase_id": "phase-6",
+      "quantity": 1,
+      "issue_date": "2026-03-11",
+      "issued_by": "user-biplob",
+      "received_by": "user-sawant",
+      "remarks": "Issued against active workfront demand."
+    }
+  ],
+  "recovery_records": [
+    {
+      "id": "recovery-1",
+      "issue_record_id": "issue-1",
+      "inventory_item_id": "inventory-1",
+      "recovery_type": "N",
+      "quantity": 1,
+      "reason": "Damaged during fit-up",
+      "condition_status": "good",
+      "image_path": "recovery-images/recovery-1.jpg"
+    },
+    {
+      "id": "recovery-2",
+      "issue_record_id": "issue-2",
+      "inventory_item_id": "inventory-2",
+      "recovery_type": "LF",
+      "quantity": 1,
+      "reason": "Excess cut length returned",
+      "condition_status": "damaged",
+      "image_path": "recovery-images/recovery-2.jpg"
+    },
+    {
+      "id": "recovery-3",
+      "issue_record_id": "issue-3",
+      "inventory_item_id": "inventory-3",
+      "recovery_type": "S",
+      "quantity": 1,
+      "reason": "Unused sealed pack",
+      "condition_status": "damaged",
+      "image_path": "recovery-images/recovery-3.jpg"
+    },
+    {
+      "id": "recovery-4",
+      "issue_record_id": "issue-4",
+      "inventory_item_id": "inventory-4",
+      "recovery_type": "N",
+      "quantity": 2,
+      "reason": "Unused sealed pack",
+      "condition_status": "damaged",
+      "image_path": "recovery-images/recovery-4.jpg"
+    },
+    {
+      "id": "recovery-5",
+      "issue_record_id": "issue-5",
+      "inventory_item_id": "inventory-5",
+      "recovery_type": "LF",
+      "quantity": 1,
+      "reason": "Damaged during fit-up",
+      "condition_status": "damaged",
+      "image_path": "recovery-images/recovery-5.jpg"
+    },
+    {
+      "id": "recovery-6",
+      "issue_record_id": "issue-6",
+      "inventory_item_id": "inventory-6",
+      "recovery_type": "S",
+      "quantity": 1,
+      "reason": "Excess cut length returned",
+      "condition_status": "repairable",
+      "image_path": "recovery-images/recovery-6.jpg"
+    }
+  ],
+  "reuse_reviews": [
+    {
+      "id": "reuse-1",
+      "recovery_record_id": "recovery-1",
+      "suggestion": "reusable as-is",
+      "reviewer_id": "user-galvin",
+      "decision": "approved for reuse",
+      "note": "Advisory AI suggestion reviewed by stores and QC.",
+      "derived_pin": "PIN-HYD-2026-R001"
+    },
+    {
+      "id": "reuse-2",
+      "recovery_record_id": "recovery-2",
+      "suggestion": "reusable after rework",
+      "reviewer_id": "user-galvin",
+      "decision": "approved for reuse",
+      "note": "Advisory AI suggestion reviewed by stores and QC.",
+      "derived_pin": "PIN-HYD-2026-R002"
+    },
+    {
+      "id": "reuse-3",
+      "recovery_record_id": "recovery-3",
+      "suggestion": "hold",
+      "reviewer_id": "user-galvin",
+      "decision": "scrap dispose",
+      "note": "Advisory AI suggestion reviewed by stores and QC.",
+      "derived_pin": "PIN-HYD-2026-R003"
+    },
+    {
+      "id": "reuse-4",
+      "recovery_record_id": "recovery-4",
+      "suggestion": "not reusable",
+      "reviewer_id": "user-galvin",
+      "decision": "hold for rework",
+      "note": "Advisory AI suggestion reviewed by stores and QC.",
+      "derived_pin": "PIN-HYD-2026-R004"
+    },
+    {
+      "id": "reuse-5",
+      "recovery_record_id": "recovery-5",
+      "suggestion": "reusable as-is",
+      "reviewer_id": "user-galvin",
+      "decision": "scrap dispose",
+      "note": "Advisory AI suggestion reviewed by stores and QC.",
+      "derived_pin": "PIN-HYD-2026-R005"
+    },
+    {
+      "id": "reuse-6",
+      "recovery_record_id": "recovery-6",
+      "suggestion": "reusable after rework",
+      "reviewer_id": "user-galvin",
+      "decision": "scrap dispose",
+      "note": "Advisory AI suggestion reviewed by stores and QC.",
+      "derived_pin": "PIN-HYD-2026-R006"
+    }
+  ],
+  "ai_recommendations": [
+    {
+      "id": "ai-1",
+      "context_type": "vendor",
+      "context_id": "req-10",
+      "provider": "gemini",
+      "summary": "PIN trace shows partial issue, recovered leftover, and successful re-entry to Store Room 1.",
+      "raw_payload": {
+        "confidence": 84
+      }
+    },
+    {
+      "id": "ai-2",
+      "context_type": "reuse",
+      "context_id": "req-3",
+      "provider": "gemini",
+      "summary": "Recovered stock can cover the shortfall after minimal rework, reducing fresh procurement risk.",
+      "raw_payload": {
+        "confidence": 75
+      }
+    },
+    {
+      "id": "ai-3",
+      "context_type": "dashboard",
+      "context_id": "req-20",
+      "provider": "mock",
+      "summary": "Vendor 2 balances delivery confidence and low rejection history for urgent deck installation.",
+      "raw_payload": {
+        "confidence": 83
+      }
+    },
+    {
+      "id": "ai-4",
+      "context_type": "pin_journey",
+      "context_id": "req-12",
+      "provider": "mock",
+      "summary": "Three urgent requirements need payment follow-up before yard dispatch windows close.",
+      "raw_payload": {
+        "confidence": 72
+      }
+    },
+    {
+      "id": "ai-5",
+      "context_type": "pin_journey",
+      "context_id": "req-16",
+      "provider": "mock",
+      "summary": "PIN trace shows partial issue, recovered leftover, and successful re-entry to Store Room 1.",
+      "raw_payload": {
+        "confidence": 83
+      }
+    },
+    {
+      "id": "ai-6",
+      "context_type": "pin_journey",
+      "context_id": "req-5",
+      "provider": "groq",
+      "summary": "Recovered stock can cover the shortfall after minimal rework, reducing fresh procurement risk.",
+      "raw_payload": {
+        "confidence": 88
+      }
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alert-1",
+      "title": "QC partial hold awaiting replacement",
+      "severity": "critical",
+      "module": "reuse",
+      "linked_id": "req-14",
+      "message": "Operational attention needed to keep material flow on schedule.",
+      "created_at": "2026-03-18T00:00:00",
+      "is_read": false
+    },
+    {
+      "id": "alert-2",
+      "title": "QC partial hold awaiting replacement",
+      "severity": "high",
+      "module": "payments",
+      "linked_id": "req-3",
+      "message": "Operational attention needed to keep material flow on schedule.",
+      "created_at": "2026-03-17T00:00:00",
+      "is_read": false
+    },
+    {
+      "id": "alert-3",
+      "title": "QC partial hold awaiting replacement",
+      "severity": "critical",
+      "module": "payments",
+      "linked_id": "req-15",
+      "message": "Operational attention needed to keep material flow on schedule.",
+      "created_at": "2026-03-16T00:00:00",
+      "is_read": false
+    },
+    {
+      "id": "alert-4",
+      "title": "Recovered stock ready for reuse review",
+      "severity": "high",
+      "module": "requirements",
+      "linked_id": "req-16",
+      "message": "Operational attention needed to keep material flow on schedule.",
+      "created_at": "2026-03-15T00:00:00",
+      "is_read": false
+    },
+    {
+      "id": "alert-5",
+      "title": "QC partial hold awaiting replacement",
+      "severity": "medium",
+      "module": "reuse",
+      "linked_id": "req-7",
+      "message": "Operational attention needed to keep material flow on schedule.",
+      "created_at": "2026-03-14T00:00:00",
+      "is_read": true
+    },
+    {
+      "id": "alert-6",
+      "title": "QC partial hold awaiting replacement",
+      "severity": "high",
+      "module": "qc",
+      "linked_id": "req-9",
+      "message": "Operational attention needed to keep material flow on schedule.",
+      "created_at": "2026-03-13T00:00:00",
+      "is_read": true
+    },
+    {
+      "id": "alert-7",
+      "title": "QC partial hold awaiting replacement",
+      "severity": "low",
+      "module": "payments",
+      "linked_id": "req-3",
+      "message": "Operational attention needed to keep material flow on schedule.",
+      "created_at": "2026-03-12T00:00:00",
+      "is_read": true
+    },
+    {
+      "id": "alert-8",
+      "title": "Advance payment pending finance review",
+      "severity": "critical",
+      "module": "reuse",
+      "linked_id": "req-18",
+      "message": "Operational attention needed to keep material flow on schedule.",
+      "created_at": "2026-03-11T00:00:00",
+      "is_read": true
+    }
+  ],
+  "weekly_reports": [
+    {
+      "id": "weekly-1",
+      "week_start": "2026-03-11",
+      "week_end": "2026-03-17",
+      "requirements_raised": 9,
+      "pos_issued": 3,
+      "receipts_logged": 4,
+      "qc_failures": 2,
+      "recovery_entries": 3,
+      "narrative": "Steady throughput with tighter attention needed on payment clearance and QC holds."
+    },
+    {
+      "id": "weekly-2",
+      "week_start": "2026-03-04",
+      "week_end": "2026-03-10",
+      "requirements_raised": 6,
+      "pos_issued": 2,
+      "receipts_logged": 1,
+      "qc_failures": 1,
+      "recovery_entries": 1,
+      "narrative": "Steady throughput with tighter attention needed on payment clearance and QC holds."
+    },
+    {
+      "id": "weekly-3",
+      "week_start": "2026-02-25",
+      "week_end": "2026-03-03",
+      "requirements_raised": 6,
+      "pos_issued": 3,
+      "receipts_logged": 3,
+      "qc_failures": 2,
+      "recovery_entries": 2,
+      "narrative": "Steady throughput with tighter attention needed on payment clearance and QC holds."
+    },
+    {
+      "id": "weekly-4",
+      "week_start": "2026-02-18",
+      "week_end": "2026-02-24",
+      "requirements_raised": 6,
+      "pos_issued": 6,
+      "receipts_logged": 3,
+      "qc_failures": 1,
+      "recovery_entries": 2,
+      "narrative": "Steady throughput with tighter attention needed on payment clearance and QC holds."
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "audit-req-1",
+      "entity_type": "requirement",
+      "entity_id": "req-1",
+      "action": "created",
+      "payload": {
+        "status": "raised",
+        "quantity": 46
+      },
+      "created_at": "2026-03-18T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-2",
+      "entity_type": "requirement",
+      "entity_id": "req-2",
+      "action": "created",
+      "payload": {
+        "status": "raised",
+        "quantity": 45
+      },
+      "created_at": "2026-03-16T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-3",
+      "entity_type": "requirement",
+      "entity_id": "req-3",
+      "action": "created",
+      "payload": {
+        "status": "raised",
+        "quantity": 22
+      },
+      "created_at": "2026-03-14T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-4",
+      "entity_type": "requirement",
+      "entity_id": "req-4",
+      "action": "created",
+      "payload": {
+        "status": "under_review",
+        "quantity": 22
+      },
+      "created_at": "2026-03-12T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-5",
+      "entity_type": "requirement",
+      "entity_id": "req-5",
+      "action": "created",
+      "payload": {
+        "status": "under_review",
+        "quantity": 59
+      },
+      "created_at": "2026-03-10T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-6",
+      "entity_type": "requirement",
+      "entity_id": "req-6",
+      "action": "created",
+      "payload": {
+        "status": "under_review",
+        "quantity": 19
+      },
+      "created_at": "2026-03-08T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-7",
+      "entity_type": "requirement",
+      "entity_id": "req-7",
+      "action": "created",
+      "payload": {
+        "status": "approved",
+        "quantity": 38
+      },
+      "created_at": "2026-03-06T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-8",
+      "entity_type": "requirement",
+      "entity_id": "req-8",
+      "action": "created",
+      "payload": {
+        "status": "approved",
+        "quantity": 52
+      },
+      "created_at": "2026-03-04T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-9",
+      "entity_type": "requirement",
+      "entity_id": "req-9",
+      "action": "created",
+      "payload": {
+        "status": "approved",
+        "quantity": 35
+      },
+      "created_at": "2026-03-02T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-10",
+      "entity_type": "requirement",
+      "entity_id": "req-10",
+      "action": "created",
+      "payload": {
+        "status": "po_created",
+        "quantity": 65
+      },
+      "created_at": "2026-02-28T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-11",
+      "entity_type": "requirement",
+      "entity_id": "req-11",
+      "action": "created",
+      "payload": {
+        "status": "po_created",
+        "quantity": 44
+      },
+      "created_at": "2026-02-26T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-12",
+      "entity_type": "requirement",
+      "entity_id": "req-12",
+      "action": "created",
+      "payload": {
+        "status": "po_created",
+        "quantity": 33
+      },
+      "created_at": "2026-02-24T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-13",
+      "entity_type": "requirement",
+      "entity_id": "req-13",
+      "action": "created",
+      "payload": {
+        "status": "in_delivery",
+        "quantity": 12
+      },
+      "created_at": "2026-02-22T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-14",
+      "entity_type": "requirement",
+      "entity_id": "req-14",
+      "action": "created",
+      "payload": {
+        "status": "in_delivery",
+        "quantity": 67
+      },
+      "created_at": "2026-02-20T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-15",
+      "entity_type": "requirement",
+      "entity_id": "req-15",
+      "action": "created",
+      "payload": {
+        "status": "in_delivery",
+        "quantity": 17
+      },
+      "created_at": "2026-02-18T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-16",
+      "entity_type": "requirement",
+      "entity_id": "req-16",
+      "action": "created",
+      "payload": {
+        "status": "received",
+        "quantity": 56
+      },
+      "created_at": "2026-02-16T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-17",
+      "entity_type": "requirement",
+      "entity_id": "req-17",
+      "action": "created",
+      "payload": {
+        "status": "received",
+        "quantity": 28
+      },
+      "created_at": "2026-02-14T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-18",
+      "entity_type": "requirement",
+      "entity_id": "req-18",
+      "action": "created",
+      "payload": {
+        "status": "received",
+        "quantity": 6
+      },
+      "created_at": "2026-02-12T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-19",
+      "entity_type": "requirement",
+      "entity_id": "req-19",
+      "action": "created",
+      "payload": {
+        "status": "in_inventory",
+        "quantity": 53
+      },
+      "created_at": "2026-02-10T00:00:00",
+      "created_by": "user-sawant"
+    },
+    {
+      "id": "audit-req-20",
+      "entity_type": "requirement",
+      "entity_id": "req-20",
+      "action": "created",
+      "payload": {
+        "status": "in_inventory",
+        "quantity": 42
+      },
+      "created_at": "2026-02-08T00:00:00",
+      "created_by": "user-sawant"
+    }
+  ]
+}
